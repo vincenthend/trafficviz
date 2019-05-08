@@ -1,40 +1,61 @@
 <html>
     <head>
-    	<link rel="stylesheet" type="text/css" href="css/slider.css" />
+    	<link rel="stylesheet" type="text/css" href="css/style.css" />
         <title>Bandung's Traffic Accidents</title>
         <script src="./js/d3.v5.min.js"></script>
-        <script type="text/javascript" src="./js/rainbowvis.js"></script>
-        <script type="text/javascript" src="./js/slider.js"></script>
+				<script type="text/javascript" src="./js/rainbowvis.js"></script>
+				<meta name="viewport" content= "width=device-width, initial-scale=1.0">
     </head>
-    <body class="bg-viz">
+    <body class="bg-viz" style="margin:0">
 		<div class="slider-container">
-			<p id="time-label" class="slider-label">00:00-01:00</p>
-			<img id="time-clock" src="assets/dial.svg" class="slider-clock">
-			<input id="time-slider" type="range" min="0" max="23" value="0" step="1" class="slider" oninput="changeTimeLabel()">
+			<div id="time-label" class="slider-label">
+				All Time
+			</div>
+			<div id="time-clock-slot" class="slider-clock">
+			</div>
+			<input id="time-slider" type="range" min="-1" max="23" value="-1" step="1" class="slider" oninput="changeTimeLabel()">
 		</div>
-    </body>
+		</body>
+		
+		<script type="text/javascript" src="./js/slider.js"></script>
     <script>
 		load();
 
-		//Zoom
+		//Loading Function
 		function load(){
+			setupMap();
+			setupSlider();
+			setupLocationBox();
+		}
+
+		function setupSlider(){
+			d3.xml('./assets/dial.svg').then(data => {
+				document.getElementById("time-clock-slot").append(data.documentElement);
+				d3.select("svg#DialImage #DialObject").attr('transform','rotate(0,199,59.5)');
+				
+				animateDial();
+			});
+		}
+
+		function setupMap(){			
 			d3.xml('./assets/map.svg').then(data => {
 				document.body.append(data.documentElement);
-				var svg = d3.select('svg');
-				svg.attr("width","100%")
-					.attr("height","100%")
+				var svg = d3.select('svg#MapImage');
+				svg.attr("width","100vw")
+					.attr("height","100vh")
 
 				// Zoom
 				svg.call(d3.zoom().scaleExtent([0.5,4.5])
 					.on("zoom", function () {
-					svg.select("#Map").attr("transform", d3.event.transform);
+					svg.select("#Map").transition().duration(50).attr("transform", d3.event.transform);
 					})
 				)
 				
 				var dataLine = d3.selectAll("#DataLine *");
-
 				dataLine.attr('pointer-events', 'visibleStroke')
-					.attr('def-stroke',dataLine.attr('stroke'))
+					.attr('def-stroke', function() {
+						return d3.select(this).attr('stroke')
+					})
 					.on("mouseover", function(){
 						// Make it brighter
 						var d = d3.select(this);
@@ -46,11 +67,22 @@
 						d.transition().duration(200).attr('stroke',d.attr('def-stroke'))
 					})
 					.on("click",function(){
-						// Respond to click on road						
+						// Respond to click on road
 						var d = d3.select(this);
 						console.log(d.attr('id'))
+						showLocationData("Padjajaran")
 					})
 			});
+		}
+
+		function setupLocationBox(){
+			var body = d3.select('body');
+			body.append("div").attr("id", "locationData")
+			.append("div").text("Kota Bandung").attr("id", "locationName");
+		}
+
+		function showLocationData(streetName){
+			var svg = d3.select('svg#MapImage g#LocationData');
 		}
 
     </script>
