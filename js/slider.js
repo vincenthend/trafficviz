@@ -1,15 +1,21 @@
-function changeTimeLabel() {
+function update() {
 	var startTime = document.getElementById("time-slider").value;
+	startTime = parseInt(startTime);
 
+	// Change bg color
 	var body = document.body;
 	body.style.backgroundColor = getBackgroundColor(startTime);
 
-	var deg = parseInt(startTime) * 360 / 24;
+	// Show bar chart
+	displayBarChart(startTime);
 
+	// Rotate the clock
+	var deg = startTime * 360 / 24;
 	var clock = document.getElementById("time-clock");
 	clock.style.transform = 'rotate('+deg+'deg)';
 
-	var finishTime = parseInt(startTime) + 1;
+	// Create time label
+	var finishTime = startTime + 1;
 
 	if(finishTime > 23) {
 		finishTime = 0;
@@ -32,10 +38,10 @@ function getBackgroundColor(startTime) {
 	
 	if(startTime <= 11) {
 		backgroundGradient.setNumberRange(0, 11);
-		backgroundGradient.setSpectrum('#2C3E50', '#FD746C');
+		backgroundGradient.setSpectrum('#283E51', '#4B79A1');
 	} else {
 		backgroundGradient.setNumberRange(12, 23);
-		backgroundGradient.setSpectrum('#FD746C', '#2C3E50');
+		backgroundGradient.setSpectrum('#4B79A1', '#283E51');
 	}
 	return "#" + backgroundGradient.colourAt(startTime);
 }
