@@ -23,22 +23,27 @@
 					})
 				)
 				
-				svg.selectAll("g #DataLine path")
-					.on("mouseover", mouseOver)
-					.on("mouseout", mouseOut)
+				var dataLine = d3.selectAll("#DataLine *");
+
+				dataLine.attr('pointer-events', 'visibleStroke')
+					.attr('def-stroke',dataLine.attr('stroke'))
+					.on("mouseover", function(){
+						// Make it brighter
+						var d = d3.select(this);
+						d.transition().duration(200).attr('stroke',d3.hsl(d.attr('stroke')).brighter(0.8))
+					})
+					.on("mouseout", function(){
+						// Make it normal
+						var d = d3.select(this);
+						d.transition().duration(200).attr('stroke',d.attr('def-stroke'))
+					})
+					.on("click",function(){
+						// Respond to click on road						
+						var d = d3.select(this);
+						console.log(d.attr('id'))
+					})
 			});
 		}
-		
-		function mouseOver(d, i){
-			console.log("In");
-			console.log(d);
-			console.log(i);
-		}
-		
-		function mouseOut(d, i){
-			console.log("Out");
-			console.log(d);
-			console.log(i);
-		}
+
     </script>
 </html>
