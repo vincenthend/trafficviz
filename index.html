@@ -29,8 +29,17 @@
 			</div>
 			<input id="time-slider" type="range" min="-1" max="23" value="-1" step="1" class="slider" oninput="update()">
 		</div>
-		</body>
-		
+
+		<!-- Tooltips -->
+		<div id="tip-type">
+			<div id="tip-type-label"></div>
+			<div id="tip-type-number"></div>
+		</div>
+		<div id="tip-road">
+			<div id="tip-road-label">asdf</div>
+			<div id="tip-road-number">asdf</div>
+		</div>
+		</body>		
 		
 		<script type="text/javascript" src="./js/Chart.min.js"></script>
 		<script type="text/javascript" src="./js/rainbowvis.js"></script>
@@ -69,6 +78,10 @@
 					})
 				)
 				
+				// Fix stroke size
+				var dataLine = d3.selectAll("#RoadLine > *").attr("stroke-width",5);
+				var dataLine = d3.selectAll("#DataLine > *").attr("stroke-width",2.5);
+
 				// Event Listener
 				var dataLine = d3.selectAll("#DataLine > *");
 				dataLine.attr('pointer-events', 'visibleStroke')
@@ -79,18 +92,42 @@
 						// Make it brighter
 						var d = d3.select(this);
 						d.transition().duration(200).attr('stroke',d3.hsl(d.attr('stroke')).brighter(0.8))
+
+
+						var regex = /^(_*([A-z]+))*/gm;
+						var road_name = regex.exec(d.attr('id'))[0].split("_").join(' ').trim();
+
+						// Tooltips
+						var tip = d3.select("#tip-road");
+						var tipSize = tip.node().getBoundingClientRect();
+						
+						tip.transition().duration(200).style("opacity",0.9);
+						tip.style("left", (d3.event.pageX - tipSize.width/2)+"px")
+								.style("top", (d3.event.pageY - tipSize.height-7)+"px")
+						tip.select("#tip-road-label").text(road_name);
+						tip.select("#tip-road-number").text(d.attr('data-qty'));
+					})
+					.on("mousemove", function(){
+						var tip = d3.select("#tip-road");
+						var tipSize = tip.node().getBoundingClientRect();
+
+						tip.style("left", (d3.event.pageX - tipSize.width/2)+"px")
+								.style("top", (d3.event.pageY - tipSize.height-7)+"px")
 					})
 					.on("mouseout", function(){
 						// Make it normal
 						var d = d3.select(this);
 						d.transition().duration(200).attr('stroke',d.attr('def-stroke'))
+
+						var tip = d3.select("#tip-road");						
+						tip.transition().duration(200).style("opacity",0);
 					})
 					.on("click",function(){
-						// Respond to click on road
+						// Respond to click on road, get location name etc
 						var d = d3.select(this);
 						var regex = /^(_*([A-z]+))*/gm;
-						var m = regex.exec(d.attr('id'));
-						showLocationData(m[0].split("_").join(' ').trim())
+						var road_name = regex.exec(d.attr('id'));
+						showLocationData(road_name[0].split("_").join(' ').trim())
 					})
 			});
 		}

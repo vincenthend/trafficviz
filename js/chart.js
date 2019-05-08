@@ -19,17 +19,31 @@ function createBarChart(count) {
 			.attr('height', '2rem')
 			.attr('id', 'chartAccident')
 			.attr('data-text', getAccidentTypes()[i])
+			.attr('data-qty', count[i])
 			.attr("default-fill",color[i])
 			.style("fill",color[i])
 			.on('mouseover', function(){
 				var d = d3.select(this);
-				console.log(d.attr('data-text'));
-				console.log(d3.event);
 				d.transition().duration(200).style('fill',d3.hsl(d.attr('default-fill')).darker(0.8));
+
+				var tip = d3.select("#tip-type");
+				tip.transition().duration(200).style("opacity",0.9);
+				tip.style("left", (d3.event.pageX)+"px")
+					.style("top", (d3.event.pageY + 10)+"px")
+				tip.select("#tip-type-label").text(d.attr('data-text'));
+				tip.select("#tip-type-number").text(d.attr('data-qty'));
+			})
+			.on('mousemove', function(){
+				var tip = d3.select("#tip-type");
+				tip.style("left", (d3.event.pageX)+"px")
+					.style("top", (d3.event.pageY + 10)+"px")
 			})
 			.on('mouseout', function(){
 				var d = d3.select(this);
 				d.transition().duration(200).style('fill',d3.hsl(d.attr('default-fill')));
+
+				var tip = d3.select("#tip-type");
+				tip.transition().duration(200).style("opacity",0);
 			});
 			;
 			sumwidth += count[i]/sum*100;

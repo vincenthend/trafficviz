@@ -44,6 +44,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'roboto_regular';
+  src: url('../fonts/Roboto-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .bg-viz {
   /* background-color: #0D0F0F; */
   background-image: radial-gradient(#0D1B23, #0D0F0F);
@@ -141,6 +148,7 @@
   display:flex;
   flex-direction: column;
   align-items: flex-end;
+  user-select: none;
 }
 
 #locationBox #locationName {
@@ -185,4 +193,70 @@
 
 #DataLine > * {
   cursor: pointer;
+}
+
+/* 
+  Tooltip
+*/
+
+#tip-type {
+  position: absolute;
+  text-align: center;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  user-select: none;
+  padding: 0.4rem 0.7rem;
+  opacity: 0;
+}
+
+#tip-type #tip-type-label {
+  font-family: 'roboto_black';
+  font-size: 0.8rem;
+}
+
+#tip-type #tip-type-number {
+  font-family: 'roboto_regular';
+  font-size: 0.8rem;
+}
+
+#tip-road {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  position: absolute;
+  background-color: #dddddd;
+  color: #333;
+  border-radius: 4px;
+  padding: 0.2rem 0.7rem;
+  opacity: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+#tip-road #tip-road-label {
+  font-family: 'roboto_black';
+  color: rgb(213, 96, 57);
+  font-size: 1rem;
+}
+
+#tip-road #tip-road-number {
+  font-family: 'roboto_regular';
+  font-size: 0.7rem;
+}
+
+#tip-road::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #d3d3d3 transparent transparent transparent;
 }
