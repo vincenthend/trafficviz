@@ -1,12 +1,18 @@
-function changeTimeLabel() {
+function update() {
 	var startTime = document.getElementById("time-slider").value;
+
 	if(startTime >= 0){
+		// Change bg color
 		d3.select("body").transition().duration(150).styleTween("background-color",function(){
 			return d3.interpolateRgb(d3.select(this).style("background-color"), getBackgroundColor(startTime));
 		});
+		
+		// Show bar chart
+		displayBarChart(startTime);
 
 		var deg = parseInt(startTime) * 360 / 24;
-
+		
+		// Rotate the clock
 		d3.select("svg#DialImage #XMLID_308_")
 			.transition().duration(150)
 			.attrTween('transform', function(){

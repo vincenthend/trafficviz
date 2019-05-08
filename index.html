@@ -13,7 +13,12 @@
 			</div>
 			<div id="time-clock-slot" class="slider-clock">
 			</div>
-			<input id="time-slider" type="range" min="-1" max="23" value="-1" step="1" class="slider" oninput="changeTimeLabel()">
+			<input id="time-slider" type="range" min="-1" max="23" value="-1" step="1" class="slider" oninput="update()">
+			<script type="text/javascript" src="./js/Chart.min.js"></script>
+			<script type="text/javascript" src="./js/rainbowvis.js"></script>
+			<script type="text/javascript" src="./js/chart.js"></script>
+			<script type="text/javascript" src="./js/slider.js"></script>
+			<script type="text/javascript" src="./data.json"></script>
 		</div>
 		</body>
 		
@@ -85,5 +90,28 @@
 			var svg = d3.select('svg#MapImage g#LocationData');
 		}
 
+		function loadJson(callback) {   
+		    var xobj = new XMLHttpRequest();
+		        xobj.overrideMimeType("application/json");
+		    xobj.open('GET', 'data.json', true); // Replace 'my_data' with the path to your file
+		    xobj.onreadystatechange = function () {
+		          if (xobj.readyState == 4 && xobj.status == "200") {
+		            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+		            callback(xobj.responseText);
+		          }
+		    };
+		    xobj.send(null);
+	 	}
+	 	function getAccidentData(jsonData, startTime, callback) {
+ 			var dataAtCurrentTime = [];
+
+			for(i = 0; i < jsonData.length; i++) {
+				if(jsonData[i].hour == startTime) {
+					dataAtCurrentTime.push(jsonData[i]);
+				}
+			}
+			callback(dataAtCurrentTime);
+		 }
+		 
     </script>
 </html>
