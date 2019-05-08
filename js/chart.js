@@ -1,33 +1,47 @@
-function createBarChart(count, startTime, callback) {
-	var ctx = document.getElementById('bar-chart').getContext('2d');
+function createBarChart(count) {
+	d3.select('#barChart svg').remove();
+	var chart = d3.select('#barChart').append('svg').attr('width', '100%').attr('height', '2rem');
+	
+	chart.append('rect').attr('width', "100%")
+	.attr('x',0)
+	.attr('y',0)
+	.style("fill","#000000");
 
-	var chart = new Chart(ctx, {
-	    // The type of chart we want to create
-	    type: 'bar',
-
-	    // The data for our dataset
-	    data: {
-	        labels: getAccidentTypes(),
-	        datasets: [{
-	            label: 'My First dataset',
-	            backgroundColor: 'rgb(255, 99, 132)',
-	            borderColor: 'rgb(255, 99, 132)',
-	            data: count
-	        }]
-	    },
-
-	    // Configuration options go here
-	    options: {}
-	});
-
-	callback();
+	// For each data
+	var color = ["#ED8A22", "#D57225", "#C15C26", "#B85226", "#AF4725"]
+	if(count.length == getAccidentTypes().length){
+		var sum = count.reduce((sum, num) => { return sum + num})
+		var sumwidth = 0;
+		for(var i = 0; i < getAccidentTypes().length; i++){
+			chart.append('rect')
+			.attr('x', sumwidth+'%')
+			.attr('width', count[i]/sum*100+'%')
+			.attr('height', '2rem')
+			.attr('id', 'chartAccident')
+			.attr('data-text', getAccidentTypes()[i])
+			.attr("default-fill",color[i])
+			.style("fill",color[i])
+			.on('mouseover', function(){
+				var d = d3.select(this);
+				console.log(d.attr('data-text'));
+				console.log(d3.event);
+				d.transition().duration(200).style('fill',d3.hsl(d.attr('default-fill')).darker(0.8));
+			})
+			.on('mouseout', function(){
+				var d = d3.select(this);
+				d.transition().duration(200).style('fill',d3.hsl(d.attr('default-fill')));
+			});
+			;
+			sumwidth += count[i]/sum*100;
+		}
+	}
 }
 
 function getAccidentTypes() {
 	return ['Tabrak Depan - Depan', 'Tabrak Depan - Belakang', 'Tabrak Depan - Samping', 'Tabrak Samping - Samping', 'Tabrak Manusia']
 }
 
-function getCountPerType(accidentData, startTime, callback) {
+function getCountPerType(accidentData, callback) {
 	var count = [0, 0, 0, 0, 0];
 	var types = getAccidentTypes();
 
@@ -50,11 +64,9 @@ function displayBarChart(startTime) {
 
 		getAccidentData(jsonData, startTime, function(dataAtCurrentTime) {
 			
-			getCountPerType(dataAtCurrentTime, startTime, function(count) {
+			getCountPerType(dataAtCurrentTime, function(count) {
 				console.log(startTime, dataAtCurrentTime, count);
-				createBarChart(count, startTime, function() {
-
-				});
+				createBarChart(count);
 			});
 
 		});

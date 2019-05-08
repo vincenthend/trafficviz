@@ -1,14 +1,14 @@
 function update() {
 	var startTime = document.getElementById("time-slider").value;
+		
+	// Show bar chart
+	displayBarChart(startTime);
 
 	if(startTime >= 0){
 		// Change bg color
 		d3.select("body").transition().duration(150).styleTween("background-color",function(){
 			return d3.interpolateRgb(d3.select(this).style("background-color"), getBackgroundColor(startTime));
 		});
-		
-		// Show bar chart
-		displayBarChart(startTime);
 
 		var deg = parseInt(startTime) * 360 / 24;
 		
@@ -35,7 +35,7 @@ function update() {
 	} else {
 		// Reset to default position
 		d3.select("svg#DialImage #XMLID_308_")
-			.transition().duration(150)
+			.transition().duration(200)
 			.attrTween('transform', function(){
 				return d3.interpolateString(d3.select(this).attr('transform'),'rotate(0,-121.5,397)')
 			});		
@@ -61,10 +61,10 @@ function getBackgroundColor(startTime) {
 	
 	if(startTime <= 11) {
 		backgroundGradient.setNumberRange(0, 11);
-		backgroundGradient.setSpectrum('#1C242B', '#5CB2CC');
+		backgroundGradient.setSpectrum('#0D0F0F', '#5CB2CC');
 	} else {
 		backgroundGradient.setNumberRange(12, 23);
-		backgroundGradient.setSpectrum('#5CB2CC', '#1C242B');
+		backgroundGradient.setSpectrum('#5CB2CC', '#0D0F0F');
 	}
 	return "#" + backgroundGradient.colourAt(startTime);
 }

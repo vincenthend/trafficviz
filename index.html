@@ -6,7 +6,21 @@
 				<script type="text/javascript" src="./js/rainbowvis.js"></script>
 				<meta name="viewport" content= "width=device-width, initial-scale=1.0">
     </head>
-    <body class="bg-viz" style="margin:0">
+		<body class="bg-viz" style="margin:0">
+		<div id='locationBox'>
+			<div id='locationName'></div>
+			<div id="locationPersebaran">Persebaran Jenis Kecelakaan</div>
+			<div id='barChart'></div>
+			<div id='locationAccidents'>
+				<span id='accidentsNumber'>900</span> Accidents Happened
+			</div>			
+			<div id='locationWounded'>
+				<span id='woundedNumber'>900</span> people wounded
+			</div>
+			<div id='locationDead'>
+				<span id='DeadNumber'>900</span> people dead
+			</div>
+		</div>
 		<div class="slider-container">
 			<div id="time-label" class="slider-label">
 				All Time
@@ -14,14 +28,13 @@
 			<div id="time-clock-slot" class="slider-clock">
 			</div>
 			<input id="time-slider" type="range" min="-1" max="23" value="-1" step="1" class="slider" oninput="update()">
-			<script type="text/javascript" src="./js/Chart.min.js"></script>
-			<script type="text/javascript" src="./js/rainbowvis.js"></script>
-			<script type="text/javascript" src="./js/chart.js"></script>
-			<script type="text/javascript" src="./js/slider.js"></script>
-			<script type="text/javascript" src="./data.json"></script>
 		</div>
 		</body>
 		
+		
+		<script type="text/javascript" src="./js/Chart.min.js"></script>
+		<script type="text/javascript" src="./js/rainbowvis.js"></script>
+		<script type="text/javascript" src="./js/chart.js"></script>
 		<script type="text/javascript" src="./js/slider.js"></script>
     <script>
 		load();
@@ -47,16 +60,17 @@
 				document.body.append(data.documentElement);
 				var svg = d3.select('svg#MapImage');
 				svg.attr("width","100vw")
-					.attr("height","100vh")
+					.attr("height","100vh");				
 
-				// Zoom
+				// Zoom Listener
 				svg.call(d3.zoom().scaleExtent([0.5,4.5])
 					.on("zoom", function () {
 					svg.select("#Map").transition().duration(50).attr("transform", d3.event.transform);
 					})
 				)
 				
-				var dataLine = d3.selectAll("#DataLine *");
+				// Event Listener
+				var dataLine = d3.selectAll("#DataLine > *");
 				dataLine.attr('pointer-events', 'visibleStroke')
 					.attr('def-stroke', function() {
 						return d3.select(this).attr('stroke')
@@ -74,39 +88,47 @@
 					.on("click",function(){
 						// Respond to click on road
 						var d = d3.select(this);
-						console.log(d.attr('id'))
-						showLocationData("Padjajaran")
+						var regex = /^(_*([A-z]+))*/gm;
+						var m = regex.exec(d.attr('id'));
+						showLocationData(m[0].split("_").join(' ').trim())
 					})
 			});
 		}
 
 		function setupLocationBox(){
-			var body = d3.select('body');
-			body.append("div").attr("id", "locationData")
-			.append("div").text("Kota Bandung").attr("id", "locationName");
+			showLocationData("Kota Bandung");
+			displayBarChart(-1);
 		}
 
 		function showLocationData(streetName){
-			var svg = d3.select('svg#MapImage g#LocationData');
+			// TODO
+			// getLocationData(streetName);
+			var locationBox = d3.select('#locationBox');
+			locationBox.select("#locationName").text(streetName);
+			displayBarChart(-1);
+			locationBox.select("#accidentsNumber").text("999");
+			locationBox.select("#woundedNumber").text("1000");
+			locationBox.select("#deadNumber").text("1001");
 		}
 
 		function loadJson(callback) {   
 		    var xobj = new XMLHttpRequest();
 		        xobj.overrideMimeType("application/json");
-		    xobj.open('GET', 'data.json', true); // Replace 'my_data' with the path to your file
-		    xobj.onreadystatechange = function () {
-		          if (xobj.readyState == 4 && xobj.status == "200") {
+		    		xobj.open('GET', 'data.json', true); // Replace 'my_data' with the path to your file
+		    		xobj.onreadystatechange = function () {
+						if (xobj.readyState == 4 && xobj.status == "200") {
 		            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
 		            callback(xobj.responseText);
-		          }
+						}
 		    };
 		    xobj.send(null);
-	 	}
+		}
+		 
 	 	function getAccidentData(jsonData, startTime, callback) {
  			var dataAtCurrentTime = [];
 
 			for(i = 0; i < jsonData.length; i++) {
-				if(jsonData[i].hour == startTime) {
+				if(jsonData[i].hour == startTime || startTime == -1) {
 					dataAtCurrentTime.push(jsonData[i]);
 				}
 			}
