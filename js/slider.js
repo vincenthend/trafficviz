@@ -3,6 +3,10 @@ function update() {
 
 	// Set road color
 	setRoadColor(parseInt(startTime));
+
+	// Set text viz
+	console.log(document.getElementById("current-location").value);
+	showLocationData(document.getElementById("current-location").value, parseInt(startTime));
 		
 	// Show bar chart
 	displayBarChart(parseInt(startTime));
