@@ -1,4980 +1,3985 @@
 [{
     "id" : 1,
-    "date" : 1505260800,
-    "hour" : 19,
-    "lat" : -6.8894785,
-    "long" : 107.5818055,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 2,
-    "date" : 1508284800,
-    "hour" : 10,
-    "lat" : -6.9081987,
-    "long" : 107.6304245,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 3,
-    "date" : 1508889600,
-    "hour" : 14,
-    "lat" : -6.939027,
-    "long" : 107.606133,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 4,
-    "date" : 1509235200,
-    "hour" : 15,
-    "lat" : -6.925615,
-    "long" : 107.66553,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 5,
-    "date" : 1509580800,
-    "hour" : 17,
-    "lat" : -6.9258807,
-    "long" : 107.6856162,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 6,
-    "date" : 1509753600,
-    "hour" : 14,
-    "lat" : -6.9047445,
-    "long" : 107.5983894,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 7,
-    "date" : 1510272000,
-    "hour" : 17,
-    "lat" : -6.8646001,
-    "long" : 107.609097,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 8,
-    "date" : 1510272000,
-    "hour" : 17,
-    "lat" : -6.9609076,
-    "long" : 107.6654548,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 9,
-    "date" : 1510704000,
-    "hour" : 3,
-    "lat" : -6.9207377,
-    "long" : 107.6006033,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 10,
-    "date" : 1511827200,
-    "hour" : 0,
-    "lat" : -6.9427336,
-    "long" : 107.5947821,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 11,
-    "date" : 1512259200,
-    "hour" : 18,
-    "lat" : -6.9386629,
-    "long" : 107.6543445,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 12,
-    "date" : 1512432000,
-    "hour" : 3,
-    "lat" : -6.9177103,
-    "long" : 107.6444842,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 13,
-    "date" : 1513641600,
-    "hour" : 6,
-    "lat" : -6.9004655,
-    "long" : 107.6046789,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 14,
-    "date" : 1513728000,
-    "hour" : 14,
-    "lat" : -6.9684777,
-    "long" : 107.6998438,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 15,
-    "date" : 1513814400,
-    "hour" : 20,
-    "lat" : -6.9274944,
-    "long" : 107.5837459,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 16,
-    "date" : 1514505600,
-    "hour" : 19,
-    "lat" : -6.8675047,
-    "long" : 107.6059841,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 17,
-    "date" : 1514505600,
-    "hour" : 0,
-    "lat" : -6.9013893,
-    "long" : 107.6268342,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 18,
-    "date" : 1514764800,
+    "date" : 1518566400,
     "hour" : 23,
-    "lat" : -6.9491486,
-    "long" : 107.6115152,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 19,
-    "date" : 1514764800,
-    "hour" : 2,
-    "lat" : -6.8987662,
-    "long" : 107.6413198,
-    "type" : "Tabrak Manusia",
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Samping - Samping",
     "death" : 1,
     "wounded": 0
-},
-{
-    "id" : 20,
-    "date" : 1514764800,
-    "hour" : 4,
-    "lat" : -6.9374459,
-    "long" : 107.684699,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 21,
-    "date" : 1514851200,
-    "hour" : 5,
-    "lat" : -6.9472487,
-    "long" : 107.5926555,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 22,
-    "date" : 1514937600,
-    "hour" : 6,
-    "lat" : -6.898029,
-    "long" : 107.6082916,
-    "type" : "Tabrak Depan - Depan",
+},{
+    "id" : 2,
+    "date" : 1518566400,
+    "hour" : 23,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Tunggal",
     "death" : 1,
     "wounded": 0
-},
-{
-    "id" : 23,
+},{
+    "id" : 3,
+    "date" : 1534723200,
+    "hour" : 12,
+    "loc" : "Perintis_Kemerdekaan_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 4,
     "date" : 1515110400,
     "hour" : 21,
-    "lat" : -6.9134578,
-    "long" : 107.6950361,
+    "loc" : "A_H_Nasution_4_",
     "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 24,
-    "date" : 1515196800,
-    "hour" : 8,
-    "lat" : -6.9274944,
-    "long" : 107.5837459,
+},{
+    "id" : 5,
+    "date" : 1516752000,
+    "hour" : 1,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 6,
+    "date" : 1517788800,
+    "hour" : 0,
+    "loc" : "A_H_Nasution_4_",
     "type" : "Tabrak Manusia",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 25,
-    "date" : 1515196800,
-    "hour" : 23,
-    "lat" : -6.9256501,
-    "long" : 107.5993301,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 26,
-    "date" : 1515283200,
-    "hour" : 6,
-    "lat" : -6.8600552,
-    "long" : 107.5947895,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 27,
-    "date" : 1515283200,
-    "hour" : 10,
-    "lat" : -6.898636,
-    "long" : 107.614048,
+},{
+    "id" : 7,
+    "date" : 1517788800,
+    "hour" : 22,
+    "loc" : "A_H_Nasution_4_",
     "type" : "Tabrak Depan - Belakang",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 28,
-    "date" : 1515369600,
-    "hour" : 7,
-    "lat" : -6.9274988,
-    "long" : 107.5496734,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 29,
-    "date" : 1515456000,
-    "hour" : 10,
-    "lat" : -6.8524661,
-    "long" : 107.5965403,
+},{
+    "id" : 8,
+    "date" : 1520035200,
+    "hour" : 5,
+    "loc" : "A_H_Nasution_4_",
     "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 30,
-    "date" : 1515542400,
-    "hour" : 21,
-    "lat" : -6.9275256,
-    "long" : 107.6443341,
-    "type" : "Tabrak Manusia",
+},{
+    "id" : 9,
+    "date" : 1520985600,
+    "hour" : 13,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Belakang",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 31,
-    "date" : 1515628800,
+},{
+    "id" : 10,
+    "date" : 1521158400,
     "hour" : 15,
-    "lat" : -6.9607186,
-    "long" : 107.6647229,
-    "type" : "Tabrak Manusia",
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 11,
+    "date" : 1522281600,
+    "hour" : 6,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Samping - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 32,
-    "date" : 1515715200,
-    "hour" : 2,
-    "lat" : -6.9024812,
-    "long" : 107.61881,
+},{
+    "id" : 12,
+    "date" : 1523491200,
+    "hour" : 10,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 13,
+    "date" : 1524096000,
+    "hour" : 1,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 14,
+    "date" : 1528761600,
+    "hour" : 23,
+    "loc" : "A_H_Nasution_4_",
     "type" : "Tabrak Manusia",
     "death" : 1,
     "wounded": 1
-},
-{
+},{
+    "id" : 15,
+    "date" : 1529020800,
+    "hour" : 3,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 1,
+    "wounded": 2
+},{
+    "id" : 16,
+    "date" : 1530921600,
+    "hour" : 12,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 0
+},{
+    "id" : 17,
+    "date" : 1531353600,
+    "hour" : 21,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 18,
+    "date" : 1532649600,
+    "hour" : 6,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 19,
+    "date" : 1532649600,
+    "hour" : 4,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 20,
+    "date" : 1534550400,
+    "hour" : 1,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 21,
+    "date" : 1535846400,
+    "hour" : 15,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 22,
+    "date" : 1536451200,
+    "hour" : 10,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 23,
+    "date" : 1537401600,
+    "hour" : 9,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Tunggal",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 24,
+    "date" : 1540425600,
+    "hour" : 2,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 25,
+    "date" : 1541030400,
+    "hour" : 12,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 26,
+    "date" : 1541635200,
+    "hour" : 21,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 27,
+    "date" : 1542844800,
+    "hour" : 10,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 28,
+    "date" : 1543363200,
+    "hour" : 23,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 29,
+    "date" : 1534204800,
+    "hour" : 5,
+    "loc" : "Abdur_Rahman_Saleh_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 30,
+    "date" : 1521849600,
+    "hour" : 2,
+    "loc" : "Aceh_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 31,
+    "date" : 1524009600,
+    "hour" : 22,
+    "loc" : "Aceh_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 32,
+    "date" : 1521590400,
+    "hour" : 9,
+    "loc" : "Achmad_Yani_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
     "id" : 33,
+    "date" : 1538438400,
+    "hour" : 7,
+    "loc" : "RE_Martadinata_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 34,
+    "date" : 1528243200,
+    "hour" : 7,
+    "loc" : "Rajawali_Timur_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 35,
+    "date" : 1521158400,
+    "hour" : 19,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 36,
+    "date" : 1521158400,
+    "hour" : 14,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 37,
+    "date" : 1532995200,
+    "hour" : 19,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 38,
+    "date" : 1523577600,
+    "hour" : 14,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 39,
+    "date" : 1535328000,
+    "hour" : 15,
+    "loc" : "Pajajaran_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 40,
+    "date" : 1529712000,
+    "hour" : 0,
+    "loc" : "Asia_Afrika_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 41,
+    "date" : 1534377600,
+    "hour" : 17,
+    "loc" : "Asia_Afrika_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 42,
+    "date" : 1515196800,
+    "hour" : 23,
+    "loc" : "Astanaanyar_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 43,
+    "date" : 1516579200,
+    "hour" : 11,
+    "loc" : "Astanaanyar_4_",
+    "type" : "Tabrak Tunggal",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 44,
+    "date" : 1517097600,
+    "hour" : 5,
+    "loc" : "Astanaanyar_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 45,
+    "date" : 1523404800,
+    "hour" : 16,
+    "loc" : "Astanaanyar_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 46,
+    "date" : 1532131200,
+    "hour" : 6,
+    "loc" : "Astanaanyar_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 47,
+    "date" : 1543449600,
+    "hour" : 5,
+    "loc" : "Astanaanyar_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 48,
+    "date" : 1531008000,
+    "hour" : 9,
+    "loc" : "Achmad_Yani_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 49,
+    "date" : 1534377600,
+    "hour" : 22,
+    "loc" : "Peta_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 50,
+    "date" : 1537747200,
+    "hour" : 19,
+    "loc" : "Peta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 51,
+    "date" : 1537056000,
+    "hour" : 6,
+    "loc" : "Otto_Iskandar_Dinata_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 52,
+    "date" : 1516233600,
+    "hour" : 14,
+    "loc" : "Sumbawa_4_",
+    "type" : "Tabrak Tunggal",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 53,
+    "date" : 1533600000,
+    "hour" : 14,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 54,
+    "date" : 1522195200,
+    "hour" : 6,
+    "loc" : "Pajajaran_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 55,
+    "date" : 1544659200,
+    "hour" : 6,
+    "loc" : "BKR_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 56,
+    "date" : 1525737600,
+    "hour" : 13,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 57,
+    "date" : 1537920000,
+    "hour" : 13,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 58,
+    "date" : 1531008000,
+    "hour" : 14,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 59,
+    "date" : 1516579200,
+    "hour" : 5,
+    "loc" : "Buah_Batu_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 60,
+    "date" : 1519948800,
+    "hour" : 21,
+    "loc" : "Buah_Batu_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 61,
+    "date" : 1525046400,
+    "hour" : 22,
+    "loc" : "Buah_Batu_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 62,
+    "date" : 1529193600,
+    "hour" : 19,
+    "loc" : "Buah_Batu_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 63,
+    "date" : 1531699200,
+    "hour" : 7,
+    "loc" : "Buah_Batu_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 64,
+    "date" : 1532995200,
+    "hour" : 20,
+    "loc" : "Buah_Batu_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 65,
+    "date" : 1533772800,
+    "hour" : 22,
+    "loc" : "Buah_Batu_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 66,
+    "date" : 1537660800,
+    "hour" : 3,
+    "loc" : "Buah_Batu_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 67,
+    "date" : 1520121600,
+    "hour" : 21,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 68,
+    "date" : 1531267200,
+    "hour" : 20,
+    "loc" : "Cibadak_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 69,
+    "date" : 1533686400,
+    "hour" : 7,
+    "loc" : "Cibadak_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 70,
+    "date" : 1542844800,
+    "hour" : 12,
+    "loc" : "Cibadak_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 71,
+    "date" : 1516060800,
+    "hour" : 6,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 72,
+    "date" : 1517443200,
+    "hour" : 0,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 73,
+    "date" : 1524787200,
+    "hour" : 5,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 74,
+    "date" : 1530057600,
+    "hour" : 16,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 75,
+    "date" : 1532304000,
+    "hour" : 23,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 76,
+    "date" : 1539129600,
+    "hour" : 23,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 77,
+    "date" : 1533686400,
+    "hour" : 19,
+    "loc" : "Cicendo_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 78,
+    "date" : 1531612800,
+    "hour" : 2,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 79,
+    "date" : 1512259200,
+    "hour" : 18,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 80,
+    "date" : 1541894400,
+    "hour" : 6,
+    "loc" : "Cikutra_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 81,
+    "date" : 1513641600,
+    "hour" : 6,
+    "loc" : "Cihampelas_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 82,
+    "date" : 1524009600,
+    "hour" : 17,
+    "loc" : "Terusan_Buah_Batu_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 83,
+    "date" : 1523577600,
+    "hour" : 18,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 84,
+    "date" : 1525046400,
+    "hour" : 22,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 85,
+    "date" : 1524700800,
+    "hour" : 13,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 86,
+    "date" : 1542499200,
+    "hour" : 9,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 87,
+    "date" : 1526515200,
+    "hour" : 0,
+    "loc" : "Layang_Pasopati_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 88,
+    "date" : 1528329600,
+    "hour" : 14,
+    "loc" : "Layang_Pasopati_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 89,
+    "date" : 1537747200,
+    "hour" : 2,
+    "loc" : "Lengkong_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 90,
+    "date" : 1518739200,
+    "hour" : 4,
+    "loc" : "Cikutra_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 91,
+    "date" : 1532217600,
+    "hour" : 22,
+    "loc" : "Cikutra_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 92,
+    "date" : 1540857600,
+    "hour" : 23,
+    "loc" : "Cikutra_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 93,
+    "date" : 1540339200,
+    "hour" : 9,
+    "loc" : "Supratman_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 94,
     "date" : 1515801600,
     "hour" : 16,
-    "lat" : -6.9096705,
-    "long" : 107.7233385,
+    "loc" : "Raya_Ujungberung_4_",
     "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 4
-},
-{
-    "id" : 34,
-    "date" : 1515974400,
-    "hour" : 1,
-    "lat" : -6.9116584,
-    "long" : 107.6109018,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 35,
-    "date" : 1516060800,
-    "hour" : 6,
-    "lat" : -6.9606713,
-    "long" : 107.5939571,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 36,
-    "date" : 1516233600,
-    "hour" : 14,
-    "lat" : -6.9141674,
-    "long" : 107.6186434,
-    "type" : "Tabrak Tunggal",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 37,
-    "date" : 1516233600,
-    "hour" : 16,
-    "lat" : -6.8994733,
-    "long" : 107.6192938,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 38,
-    "date" : 1516233600,
-    "hour" : 7,
-    "lat" : -6.9366043,
-    "long" : 107.6843559,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 39,
-    "date" : 1516320000,
-    "hour" : 21,
-    "lat" : -6.9294837,
-    "long" : 107.5794755,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 40,
-    "date" : 1516320000,
-    "hour" : 4,
-    "lat" : -6.92321,
-    "long" : 107.709896,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 41,
-    "date" : 1516492800,
-    "hour" : 11,
-    "lat" : -6.9098358,
-    "long" : 107.5785358,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 42,
-    "date" : 1516579200,
-    "hour" : 11,
-    "lat" : -6.9266,
-    "long" : 107.5996494,
-    "type" : "Tabrak Tunggal",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 43,
-    "date" : 1516579200,
-    "hour" : 5,
-    "lat" : -6.9397551,
-    "long" : 107.6257802,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 44,
-    "date" : 1516579200,
-    "hour" : 3,
-    "lat" : -6.964819,
-    "long" : 107.6463685,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 45,
-    "date" : 1516665600,
-    "hour" : 8,
-    "lat" : -6.9186457,
-    "long" : 107.5864023,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 46,
-    "date" : 1516665600,
-    "hour" : 21,
-    "lat" : -6.9236611,
-    "long" : 107.6024063,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 47,
-    "date" : 1516752000,
-    "hour" : 1,
-    "lat" : -6.9312741,
-    "long" : 107.7176708,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 48,
-    "date" : 1516752000,
-    "hour" : 11,
-    "lat" : -6.9096705,
-    "long" : 107.7233385,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 49,
-    "date" : 1517097600,
-    "hour" : 5,
-    "lat" : -6.9256501,
-    "long" : 107.5993301,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 50,
-    "date" : 1517443200,
-    "hour" : 0,
-    "lat" : -6.9552321,
-    "long" : 107.5936113,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 51,
-    "date" : 1517529600,
-    "hour" : 3,
-    "lat" : -6.9409682,
-    "long" : 107.6422503,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 52,
-    "date" : 1517616000,
-    "hour" : 14,
-    "lat" : -6.917866,
-    "long" : 107.6722602,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 53,
-    "date" : 1517616000,
-    "hour" : 5,
-    "lat" : -6.9207044,
-    "long" : 107.6022542,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 54,
-    "date" : 1517702400,
-    "hour" : 12,
-    "lat" : -6.9247059,
-    "long" : 107.6038422,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 5
-},
-{
-    "id" : 55,
-    "date" : 1517702400,
-    "hour" : 10,
-    "lat" : -6.8846182,
-    "long" : 107.6094906,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 56,
-    "date" : 1517702400,
-    "hour" : 9,
-    "lat" : -6.959872,
-    "long" : 107.6393212,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 57,
-    "date" : 1517788800,
-    "hour" : 11,
-    "lat" : -6.8848893,
-    "long" : 107.6101113,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 58,
-    "date" : 1517788800,
-    "hour" : 21,
-    "lat" : -6.964819,
-    "long" : 107.6463685,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 59,
-    "date" : 1517788800,
-    "hour" : 0,
-    "lat" : -6.9184246,
-    "long" : 107.7070903,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 60,
-    "date" : 1517788800,
-    "hour" : 22,
-    "lat" : -6.9254607,
-    "long" : 107.7116243,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 61,
-    "date" : 1517961600,
-    "hour" : 10,
-    "lat" : -6.8624278,
-    "long" : 107.5962234,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 62,
-    "date" : 1517961600,
-    "hour" : 10,
-    "lat" : -6.9480617,
-    "long" : 107.6058772,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 63,
-    "date" : 1517961600,
-    "hour" : 16,
-    "lat" : -6.9001457,
-    "long" : 107.6446295,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 64,
-    "date" : 1517961600,
-    "hour" : 18,
-    "lat" : -6.8856891,
-    "long" : 107.6668138,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 65,
-    "date" : 1518048000,
-    "hour" : 21,
-    "lat" : -6.9151787,
-    "long" : 107.5833898,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 66,
-    "date" : 1518048000,
-    "hour" : 6,
-    "lat" : -6.9486086,
-    "long" : 107.6332083,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 67,
-    "date" : 1518048000,
-    "hour" : 10,
-    "lat" : -6.9388351,
-    "long" : 107.6655818,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 68,
-    "date" : 1518134400,
-    "hour" : 15,
-    "lat" : -6.8971843,
-    "long" : 107.5611887,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 69,
-    "date" : 1518134400,
-    "hour" : 10,
-    "lat" : -6.913007,
-    "long" : 107.64382,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 70,
-    "date" : 1518393600,
-    "hour" : 20,
-    "lat" : -6.9500705,
-    "long" : 107.6246663,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 71,
-    "date" : 1518393600,
-    "hour" : 8,
-    "lat" : -6.9416142,
-    "long" : 107.6574618,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 72,
-    "date" : 1518480000,
-    "hour" : 4,
-    "lat" : -6.8991938,
-    "long" : 107.6825803,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 73,
-    "date" : 1518566400,
-    "hour" : 23,
-    "lat" : -6.9304281,
-    "long" : 107.5760538,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 74,
-    "date" : 1518566400,
-    "hour" : 23,
-    "lat" : -6.9304281,
-    "long" : 107.5760538,
-    "type" : "Tabrak Tunggal",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 75,
-    "date" : 1518652800,
-    "hour" : 6,
-    "lat" : -6.9209831,
-    "long" : 107.5748558,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 76,
-    "date" : 1518739200,
-    "hour" : 4,
-    "lat" : -6.903741,
-    "long" : 107.643868,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 77,
-    "date" : 1518825600,
-    "hour" : 4,
-    "lat" : -6.8955826,
-    "long" : 107.6092291,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 78,
-    "date" : 1518912000,
-    "hour" : 22,
-    "lat" : -6.9487735,
-    "long" : 107.6188624,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 79,
-    "date" : 1519084800,
-    "hour" : 0,
-    "lat" : -6.944301,
-    "long" : 107.5905636,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 80,
-    "date" : 1519084800,
-    "hour" : 14,
-    "lat" : -6.8865519,
-    "long" : 107.6236488,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 81,
-    "date" : 1519257600,
-    "hour" : 19,
-    "lat" : -6.9271061,
-    "long" : 107.5842246,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 82,
-    "date" : 1519430400,
-    "hour" : 23,
-    "lat" : -6.9148652,
-    "long" : 107.6177533,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 83,
-    "date" : 1519776000,
-    "hour" : 10,
-    "lat" : -6.9174015,
-    "long" : 107.5747464,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 84,
-    "date" : 1519862400,
-    "hour" : 19,
-    "lat" : -6.9155882,
-    "long" : 107.6155439,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 85,
-    "date" : 1519862400,
-    "hour" : 19,
-    "lat" : -6.9064869,
-    "long" : 107.6165754,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 86,
-    "date" : 1519948800,
-    "hour" : 3,
-    "lat" : -6.9136312,
-    "long" : 107.5776033,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 87,
-    "date" : 1519948800,
-    "hour" : 21,
-    "lat" : -6.941281,
-    "long" : 107.6264568,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 88,
-    "date" : 1520035200,
-    "hour" : 11,
-    "lat" : -6.9367564,
-    "long" : 107.5793405,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 89,
-    "date" : 1520035200,
-    "hour" : 20,
-    "lat" : -6.9318328,
-    "long" : 107.6430943,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 90,
-    "date" : 1520035200,
-    "hour" : 5,
-    "lat" : -6.9134578,
-    "long" : 107.6950361,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 91,
-    "date" : 1520121600,
-    "hour" : 21,
-    "lat" : -6.9458044,
-    "long" : 107.5786567,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 92,
-    "date" : 1520121600,
-    "hour" : 9,
-    "lat" : -6.9204356,
-    "long" : 107.602924,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 93,
-    "date" : 1520121600,
-    "hour" : 21,
-    "lat" : -6.9483644,
-    "long" : 107.6114684,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 94,
-    "date" : 1520121600,
-    "hour" : 10,
-    "lat" : -6.8852854,
-    "long" : 107.6120939,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 3
-},
-{
+},{
     "id" : 95,
-    "date" : 1520208000,
-    "hour" : 21,
-    "lat" : -6.9365669,
-    "long" : 107.594387,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 96,
-    "date" : 1520208000,
-    "hour" : 19,
-    "lat" : -6.9254714,
-    "long" : 107.6026789,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 97,
-    "date" : 1520294400,
-    "hour" : 8,
-    "lat" : -6.9356791,
-    "long" : 107.7131799,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 98,
-    "date" : 1520380800,
-    "hour" : 21,
-    "lat" : -6.8986544,
-    "long" : 107.638012,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 99,
-    "date" : 1520553600,
-    "hour" : 13,
-    "lat" : -6.9197424,
-    "long" : 107.5926599,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 100,
-    "date" : 1520553600,
-    "hour" : 17,
-    "lat" : -6.9384603,
-    "long" : 107.6632408,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 101,
-    "date" : 1520640000,
-    "hour" : 5,
-    "lat" : -6.9676799,
-    "long" : 107.6727251,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 102,
-    "date" : 1520726400,
-    "hour" : 5,
-    "lat" : -6.8673479,
-    "long" : 107.5937461,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 103,
-    "date" : 1520812800,
-    "hour" : 23,
-    "lat" : -6.9150535,
-    "long" : 107.6441142,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 104,
-    "date" : 1520985600,
-    "hour" : 13,
-    "lat" : -6.9134578,
-    "long" : 107.6950361,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 105,
-    "date" : 1521158400,
-    "hour" : 20,
-    "lat" : -6.9294837,
-    "long" : 107.5794755,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 106,
-    "date" : 1521158400,
-    "hour" : 23,
-    "lat" : -6.8903936,
-    "long" : 107.5889804,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 107,
-    "date" : 1521158400,
-    "hour" : 1,
-    "lat" : -6.9000987,
-    "long" : 107.6046708,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 108,
-    "date" : 1521158400,
-    "hour" : 0,
-    "lat" : -6.9016924,
-    "long" : 107.6520062,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 109,
-    "date" : 1521158400,
-    "hour" : 19,
-    "lat" : -6.9100253,
-    "long" : 107.6578203,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 110,
-    "date" : 1521158400,
-    "hour" : 14,
-    "lat" : -6.9076183,
-    "long" : 107.6581407,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 111,
-    "date" : 1521158400,
-    "hour" : 15,
-    "lat" : -6.9037343,
-    "long" : 107.6634755,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 112,
-    "date" : 1521331200,
-    "hour" : 17,
-    "lat" : -6.8994597,
-    "long" : 107.6004203,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 113,
-    "date" : 1521504000,
-    "hour" : 21,
-    "lat" : -6.9166276,
-    "long" : 107.5742737,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 114,
-    "date" : 1521504000,
-    "hour" : 21,
-    "lat" : -6.9503541,
-    "long" : 107.6258463,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 115,
-    "date" : 1521590400,
-    "hour" : 9,
-    "lat" : -6.9022165,
-    "long" : 107.6561306,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 116,
-    "date" : 1521676800,
-    "hour" : 9,
-    "lat" : -6.9426374,
-    "long" : 107.6499972,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 117,
-    "date" : 1521676800,
-    "hour" : 16,
-    "lat" : -6.9358342,
-    "long" : 107.6997414,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 118,
-    "date" : 1521763200,
-    "hour" : 18,
-    "lat" : -6.9145696,
-    "long" : 107.6416251,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 119,
-    "date" : 1521849600,
-    "hour" : 2,
-    "lat" : -6.9101283,
-    "long" : 107.6101878,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 120,
-    "date" : 1521849600,
-    "hour" : 10,
-    "lat" : -6.9012082,
-    "long" : 107.6812952,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 121,
-    "date" : 1522022400,
-    "hour" : 14,
-    "lat" : -6.95236,
-    "long" : 107.595214,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 122,
-    "date" : 1522022400,
-    "hour" : 12,
-    "lat" : -6.8891088,
-    "long" : 107.6259948,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 123,
-    "date" : 1522108800,
-    "hour" : 7,
-    "lat" : -6.8992456,
-    "long" : 107.6260472,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 124,
-    "date" : 1522108800,
-    "hour" : 21,
-    "lat" : -6.9607186,
-    "long" : 107.6647229,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 125,
-    "date" : 1522195200,
-    "hour" : 6,
-    "lat" : -6.9101379,
-    "long" : 107.5919786,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 126,
-    "date" : 1522195200,
+    "date" : 1516752000,
     "hour" : 11,
-    "lat" : -6.928363,
-    "long" : 107.6228137,
-    "type" : "Tabrak Depan - Samping",
+    "loc" : "Raya_Ujungberung_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 96,
+    "date" : 1545091200,
+    "hour" : 19,
+    "loc" : "Raya_Ujungberung_4_",
+    "type" : "Tabrak Tunggal",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 127,
-    "date" : 1522195200,
-    "hour" : 21,
-    "lat" : -6.9034072,
-    "long" : 107.6532679,
+},{
+    "id" : 97,
+    "date" : 1537315200,
+    "hour" : 22,
+    "loc" : "RE_Martadinata_4_",
     "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 128,
-    "date" : 1522281600,
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 98,
+    "date" : 1541980800,
     "hour" : 6,
-    "lat" : -6.920517,
-    "long" : 107.5996901,
+    "loc" : "RE_Martadinata_4_",
     "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 129,
-    "date" : 1522281600,
-    "hour" : 6,
-    "lat" : -6.9134578,
-    "long" : 107.6950361,
-    "type" : "Tabrak Samping - Samping",
+},{
+    "id" : 99,
+    "date" : 1530748800,
+    "hour" : 7,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 130,
-    "date" : 1522540800,
+},{
+    "id" : 100,
+    "date" : 1539043200,
+    "hour" : 0,
+    "loc" : "Cipaganti_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 4
+},{
+    "id" : 101,
+    "date" : 1514505600,
+    "hour" : 19,
+    "loc" : "Ciumbuleuit_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 102,
+    "date" : 1532304000,
     "hour" : 15,
-    "lat" : -6.9042437,
-    "long" : 107.6638689,
+    "loc" : "Ciumbuleuit_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 103,
+    "date" : 1510272000,
+    "hour" : 17,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 104,
+    "date" : 1515628800,
+    "hour" : 15,
+    "loc" : "Ibrahim_Adjie_4_",
     "type" : "Tabrak Manusia",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 131,
-    "date" : 1522540800,
-    "hour" : 17,
-    "lat" : -6.9373864,
-    "long" : 107.6971373,
+},{
+    "id" : 105,
+    "date" : 1522108800,
+    "hour" : 21,
+    "loc" : "Ibrahim_Adjie_4_",
     "type" : "Tabrak Depan - Samping",
     "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 132,
-    "date" : 1522627200,
-    "hour" : 2,
-    "lat" : -6.9249879,
-    "long" : 107.6061556,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 1,
     "wounded": 1
-},
-{
-    "id" : 133,
-    "date" : 1522627200,
-    "hour" : 0,
-    "lat" : -6.9426374,
-    "long" : 107.6499972,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 134,
-    "date" : 1522627200,
-    "hour" : 20,
-    "lat" : -6.9646113,
-    "long" : 107.6817895,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 135,
+},{
+    "id" : 106,
     "date" : 1522886400,
     "hour" : 7,
-    "lat" : -6.9607186,
-    "long" : 107.6647229,
+    "loc" : "Ibrahim_Adjie_4_",
     "type" : "Tabrak Depan - Belakang",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 136,
-    "date" : 1522972800,
-    "hour" : 12,
-    "lat" : -6.9403162,
-    "long" : 107.581925,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 137,
-    "date" : 1522972800,
-    "hour" : 21,
-    "lat" : -6.9214571,
-    "long" : 107.6042295,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 138,
-    "date" : 1523059200,
-    "hour" : 10,
-    "lat" : -6.9116326,
-    "long" : 107.6418982,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 139,
-    "date" : 1523059200,
-    "hour" : 2,
-    "lat" : -6.9692218,
-    "long" : 107.6989905,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 140,
-    "date" : 1523145600,
-    "hour" : 11,
-    "lat" : -6.9019222,
-    "long" : 107.653566,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 141,
-    "date" : 1523318400,
-    "hour" : 18,
-    "lat" : -6.8981199,
-    "long" : 107.5932315,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 142,
-    "date" : 1523318400,
-    "hour" : 4,
-    "lat" : -6.964819,
-    "long" : 107.6463685,
-    "type" : "Tabrak Tunggal",
-    "death" : 0,
-    "wounded": 6
-},
-{
-    "id" : 143,
+},{
+    "id" : 107,
     "date" : 1523318400,
     "hour" : 6,
-    "lat" : -6.9614324,
-    "long" : 107.6658882,
+    "loc" : "Ibrahim_Adjie_4_",
     "type" : "Tabrak Manusia",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 144,
-    "date" : 1523404800,
+},{
+    "id" : 108,
+    "date" : 1532995200,
+    "hour" : 22,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 109,
+    "date" : 1524355200,
+    "hour" : 0,
+    "loc" : "Siliwangi_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 110,
+    "date" : 1522627200,
+    "hour" : 20,
+    "loc" : "Gedebage_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 111,
+    "date" : 1534636800,
     "hour" : 16,
-    "lat" : -6.928611,
-    "long" : 107.6005037,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 145,
-    "date" : 1523491200,
-    "hour" : 10,
-    "lat" : -6.9049937,
-    "long" : 107.677437,
+    "loc" : "Gedebage_4_",
     "type" : "Tabrak Depan - Belakang",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 146,
-    "date" : 1523577600,
-    "hour" : 18,
-    "lat" : -6.9279432,
-    "long" : 107.5590853,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 147,
-    "date" : 1523577600,
-    "hour" : 18,
-    "lat" : -6.9496788,
-    "long" : 107.6189896,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 148,
-    "date" : 1523577600,
-    "hour" : 13,
-    "lat" : -6.9204909,
-    "long" : 107.6436526,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 149,
-    "date" : 1523577600,
+},{
+    "id" : 112,
+    "date" : 1536537600,
     "hour" : 14,
-    "lat" : -6.9413039,
-    "long" : 107.6722557,
+    "loc" : "Gedebage_4_",
     "type" : "Tabrak Samping - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 150,
-    "date" : 1523664000,
-    "hour" : 0,
-    "lat" : -6.9098312,
-    "long" : 107.6413803,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 151,
-    "date" : 1523750400,
-    "hour" : 6,
-    "lat" : -6.9140545,
-    "long" : 107.6101722,
-    "type" : "Tabrak Tunggal",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 152,
-    "date" : 1523750400,
-    "hour" : 14,
-    "lat" : -6.9069546,
-    "long" : 107.6111426,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 153,
-    "date" : 1524009600,
-    "hour" : 0,
-    "lat" : -6.944301,
-    "long" : 107.5905636,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 154,
-    "date" : 1524009600,
-    "hour" : 20,
-    "lat" : -6.9441515,
-    "long" : 107.6055591,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 155,
-    "date" : 1524009600,
-    "hour" : 22,
-    "lat" : -6.9093555,
-    "long" : 107.6198936,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 156,
-    "date" : 1524009600,
-    "hour" : 17,
-    "lat" : -6.9445596,
-    "long" : 107.6269963,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 157,
-    "date" : 1524096000,
-    "hour" : 1,
-    "lat" : -6.9134578,
-    "long" : 107.6950361,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 158,
-    "date" : 1524182400,
-    "hour" : 23,
-    "lat" : -6.915653,
-    "long" : 107.630538,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 159,
-    "date" : 1524355200,
-    "hour" : 0,
-    "lat" : -6.8873237,
-    "long" : 107.6123746,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 160,
-    "date" : 1524355200,
-    "hour" : 21,
-    "lat" : -6.9646732,
-    "long" : 107.6297605,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 161,
-    "date" : 1524528000,
-    "hour" : 14,
-    "lat" : -6.9193186,
-    "long" : 107.6576093,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 162,
-    "date" : 1524614400,
-    "hour" : 11,
-    "lat" : -6.917877,
-    "long" : 107.6323134,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 163,
-    "date" : 1524614400,
+},{
+    "id" : 113,
+    "date" : 1522627200,
     "hour" : 2,
-    "lat" : -6.9020461,
-    "long" : 107.6528068,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 164,
-    "date" : 1524700800,
-    "hour" : 13,
-    "lat" : -6.8926126,
-    "long" : 107.6680058,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 165,
-    "date" : 1524787200,
-    "hour" : 5,
-    "lat" : -6.9512911,
-    "long" : 107.5934619,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 166,
-    "date" : 1524787200,
-    "hour" : 3,
-    "lat" : -6.904403,
-    "long" : 107.6035503,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 167,
-    "date" : 1524873600,
-    "hour" : 23,
-    "lat" : -6.8749067,
-    "long" : 107.5795327,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 168,
-    "date" : 1524873600,
-    "hour" : 10,
-    "lat" : -6.964819,
-    "long" : 107.6463685,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 169,
-    "date" : 1524960000,
-    "hour" : 21,
-    "lat" : -6.943039,
-    "long" : 107.582234,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 170,
-    "date" : 1525046400,
-    "hour" : 22,
-    "lat" : -6.9309092,
-    "long" : 107.5608359,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 171,
-    "date" : 1525046400,
-    "hour" : 22,
-    "lat" : -6.934709,
-    "long" : 107.62065,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 172,
-    "date" : 1525046400,
-    "hour" : 6,
-    "lat" : -6.9180205,
-    "long" : 107.6987433,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 173,
-    "date" : 1525132800,
-    "hour" : 2,
-    "lat" : -6.9408649,
-    "long" : 107.5681276,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 174,
-    "date" : 1525132800,
-    "hour" : 2,
-    "lat" : -6.9354708,
-    "long" : 107.6253353,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 175,
-    "date" : 1525132800,
-    "hour" : 20,
-    "lat" : -6.940084,
-    "long" : 107.6461267,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 176,
-    "date" : 1525132800,
-    "hour" : 20,
-    "lat" : -6.940084,
-    "long" : 107.6461267,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 177,
-    "date" : 1525219200,
-    "hour" : 22,
-    "lat" : -6.8623557,
-    "long" : 107.5962293,
+    "loc" : "Otto_Iskandar_Dinata_4_",
     "type" : "Tabrak Depan - Depan",
-    "death" : 0,
+    "death" : 1,
     "wounded": 1
-},
-{
-    "id" : 178,
-    "date" : 1525219200,
-    "hour" : 20,
-    "lat" : -6.9321274,
-    "long" : 107.6069058,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 179,
-    "date" : 1525305600,
-    "hour" : 3,
-    "lat" : -6.963952,
-    "long" : 107.63844,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 180,
-    "date" : 1525392000,
-    "hour" : 3,
-    "lat" : -6.8921559,
-    "long" : 107.6625724,
+},{
+    "id" : 114,
+    "date" : 1515715200,
+    "hour" : 2,
+    "loc" : "Diponegoro_4_",
     "type" : "Tabrak Manusia",
     "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 181,
-    "date" : 1525478400,
-    "hour" : 21,
-    "lat" : -6.9155967,
-    "long" : 107.6185512,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 0
-},
-{
-    "id" : 182,
-    "date" : 1525478400,
+    "wounded": 1
+},{
+    "id" : 115,
+    "date" : 1536364800,
     "hour" : 8,
-    "lat" : -6.9174639,
-    "long" : 107.6191228,
-    "type" : "Tabrak Manusia",
+    "loc" : "Diponegoro_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 116,
+    "date" : 1538438400,
+    "hour" : 4,
+    "loc" : "Diponegoro_4_",
+    "type" : "Tabrak Depan - Belakang",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 183,
-    "date" : 1525564800,
-    "hour" : 14,
-    "lat" : -6.9387678,
-    "long" : 107.5936502,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 184,
-    "date" : 1525564800,
-    "hour" : 5,
-    "lat" : -6.8617954,
-    "long" : 107.5963425,
-    "type" : "Tabrak Depan - Depan",
+},{
+    "id" : 117,
+    "date" : 1524787200,
+    "hour" : 3,
+    "loc" : "Cipaganti_4_",
+    "type" : "Tabrak Depan - Belakang",
     "death" : 1,
     "wounded": 0
-},
-{
-    "id" : 185,
-    "date" : 1525564800,
-    "hour" : 19,
-    "lat" : -6.8997757,
-    "long" : 107.6013142,
+},{
+    "id" : 118,
+    "date" : 1523318400,
+    "hour" : 18,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 119,
+    "date" : 1526688000,
+    "hour" : 22,
+    "loc" : "Dr_Djunjunan_4_",
     "type" : "Tabrak Depan - Belakang",
     "death" : 1,
     "wounded": 1
-},
-{
-    "id" : 186,
-    "date" : 1525564800,
+},{
+    "id" : 120,
+    "date" : 1527638400,
+    "hour" : 5,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 121,
+    "date" : 1532044800,
+    "hour" : 7,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 122,
+    "date" : 1534464000,
     "hour" : 9,
-    "lat" : -6.938748,
-    "long" : 107.671675,
+    "loc" : "Dr_Djunjunan_4_",
     "type" : "Tabrak Samping - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 187,
-    "date" : 1525651200,
-    "hour" : 9,
-    "lat" : -6.8997757,
-    "long" : 107.6013142,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 188,
-    "date" : 1525737600,
-    "hour" : 13,
-    "lat" : -6.9277426,
-    "long" : 107.5698311,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 189,
-    "date" : 1525737600,
+},{
+    "id" : 123,
+    "date" : 1539734400,
     "hour" : 6,
-    "lat" : -6.942605,
-    "long" : 107.6587124,
-    "type" : "Tabrak Manusia",
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 124,
+    "date" : 1540512000,
+    "hour" : 8,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Samping - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 190,
-    "date" : 1525996800,
-    "hour" : 22,
-    "lat" : -6.9470162,
-    "long" : 107.6213082,
-    "type" : "Tabrak Manusia",
+},{
+    "id" : 125,
+    "date" : 1544832000,
+    "hour" : 20,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Tunggal",
     "death" : 1,
     "wounded": 1
-},
-{
-    "id" : 191,
-    "date" : 1525996800,
-    "hour" : 2,
-    "lat" : -6.917877,
-    "long" : 107.6323134,
+},{
+    "id" : 126,
+    "date" : 1509753600,
+    "hour" : 14,
+    "loc" : "Pajajaran_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 127,
+    "date" : 1515283200,
+    "hour" : 6,
+    "loc" : "Setiabudi_4_",
     "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 2
-},
-{
-    "id" : 192,
-    "date" : 1526169600,
-    "hour" : 4,
-    "lat" : -6.9290844,
-    "long" : 107.6036165,
-    "type" : "Tabrak Depan - Belakang",
+},{
+    "id" : 128,
+    "date" : 1515456000,
+    "hour" : 10,
+    "loc" : "Setiabudi_4_",
+    "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 193,
-    "date" : 1526169600,
-    "hour" : 20,
-    "lat" : -6.9192527,
-    "long" : 107.6220919,
-    "type" : "Tabrak Tunggal",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 194,
-    "date" : 1526169600,
-    "hour" : 2,
-    "lat" : -6.9358342,
-    "long" : 107.6997414,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 195,
-    "date" : 1526256000,
-    "hour" : 14,
-    "lat" : -6.9173772,
-    "long" : 107.6565154,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 196,
-    "date" : 1526256000,
-    "hour" : 19,
-    "lat" : -6.9374176,
-    "long" : 107.6790656,
+},{
+    "id" : 129,
+    "date" : 1517961600,
+    "hour" : 10,
+    "loc" : "Setiabudi_4_",
     "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 130,
+    "date" : 1520726400,
+    "hour" : 5,
+    "loc" : "Setiabudi_4_",
+    "type" : "Tabrak Depan - Belakang",
     "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 197,
+    "wounded": 1
+},{
+    "id" : 131,
+    "date" : 1525219200,
+    "hour" : 22,
+    "loc" : "Setiabudi_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 132,
+    "date" : 1525564800,
+    "hour" : 5,
+    "loc" : "Setiabudi_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 133,
     "date" : 1526342400,
     "hour" : 7,
-    "lat" : -6.8516591,
-    "long" : 107.5955534,
+    "loc" : "Setiabudi_4_",
     "type" : "Tabrak Depan - Depan",
     "death" : 1,
     "wounded": 0
-},
-{
-    "id" : 198,
-    "date" : 1526342400,
-    "hour" : 5,
-    "lat" : -6.964819,
-    "long" : 107.6463685,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 199,
-    "date" : 1526428800,
-    "hour" : 5,
-    "lat" : -6.9097601,
-    "long" : 107.597737,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 200,
-    "date" : 1526515200,
-    "hour" : 0,
-    "lat" : -6.8986458,
-    "long" : 107.6111966,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 201,
-    "date" : 1526601600,
-    "hour" : 19,
-    "lat" : -6.9385224,
-    "long" : 107.6127936,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 202,
-    "date" : 1526601600,
-    "hour" : 18,
-    "lat" : -6.9316892,
-    "long" : 107.6165622,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 203,
-    "date" : 1526688000,
-    "hour" : 0,
-    "lat" : -6.9274944,
-    "long" : 107.5837459,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 204,
-    "date" : 1526688000,
-    "hour" : 22,
-    "lat" : -6.8962605,
-    "long" : 107.5899424,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 205,
-    "date" : 1526688000,
-    "hour" : 17,
-    "lat" : -6.9569247,
-    "long" : 107.6240754,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 206,
-    "date" : 1526774400,
-    "hour" : 9,
-    "lat" : -6.9541913,
-    "long" : 107.6072374,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 207,
-    "date" : 1526774400,
-    "hour" : 21,
-    "lat" : -6.8643456,
-    "long" : 107.6264377,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 208,
-    "date" : 1526860800,
-    "hour" : 3,
-    "lat" : -6.9116842,
-    "long" : 107.5716586,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 209,
-    "date" : 1527033600,
-    "hour" : 15,
-    "lat" : -6.9483111,
-    "long" : 107.6207991,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 210,
-    "date" : 1527033600,
-    "hour" : 9,
-    "lat" : -6.900056,
-    "long" : 107.6243773,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 211,
-    "date" : 1527120000,
-    "hour" : 19,
-    "lat" : -6.9441515,
-    "long" : 107.6055591,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 212,
-    "date" : 1527206400,
-    "hour" : 12,
-    "lat" : -6.9509313,
-    "long" : 107.6867556,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 213,
-    "date" : 1527292800,
-    "hour" : 22,
-    "lat" : -6.9477814,
-    "long" : 107.605607,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 2
-},
-{
-    "id" : 214,
-    "date" : 1527379200,
-    "hour" : 0,
-    "lat" : -6.9462366,
-    "long" : 107.5910247,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 215,
-    "date" : 1527379200,
-    "hour" : 14,
-    "lat" : -6.9096314,
-    "long" : 107.6085125,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 216,
-    "date" : 1527379200,
-    "hour" : 9,
-    "lat" : -6.9585499,
-    "long" : 107.6111387,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 217,
-    "date" : 1527379200,
-    "hour" : 10,
-    "lat" : -6.9483033,
-    "long" : 107.6310756,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 218,
+},{
+    "id" : 134,
     "date" : 1527465600,
     "hour" : 12,
-    "lat" : -6.8511298,
-    "long" : 107.5968453,
+    "loc" : "Setiabudi_4_",
     "type" : "Tabrak Manusia",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 219,
-    "date" : 1527552000,
-    "hour" : 21,
-    "lat" : -6.9521898,
-    "long" : 107.5861109,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 220,
-    "date" : 1527638400,
-    "hour" : 5,
-    "lat" : -6.8945983,
-    "long" : 107.5867504,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 221,
-    "date" : 1527638400,
-    "hour" : 23,
-    "lat" : -6.9065747,
-    "long" : 107.5973491,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 222,
-    "date" : 1527638400,
-    "hour" : 17,
-    "lat" : -6.9432922,
-    "long" : 107.6112315,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 223,
-    "date" : 1527638400,
-    "hour" : 22,
-    "lat" : -6.9426374,
-    "long" : 107.6499972,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 224,
-    "date" : 1527724800,
-    "hour" : 0,
-    "lat" : -6.9172143,
-    "long" : 107.6459181,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 225,
-    "date" : 1527724800,
-    "hour" : 3,
-    "lat" : -6.924928,
-    "long" : 107.6462211,
+},{
+    "id" : 135,
+    "date" : 1529539200,
+    "hour" : 2,
+    "loc" : "Setiabudi_4_",
     "type" : "Tabrak Depan - Belakang",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 226,
-    "date" : 1527811200,
-    "hour" : 8,
-    "lat" : -6.9056026,
-    "long" : 107.5663136,
+},{
+    "id" : 136,
+    "date" : 1533254400,
+    "hour" : 21,
+    "loc" : "Setiabudi_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 137,
+    "date" : 1533254400,
+    "hour" : 21,
+    "loc" : "Setiabudi_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 138,
+    "date" : 1533513600,
+    "hour" : 11,
+    "loc" : "Setiabudi_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 139,
+    "date" : 1534291200,
+    "hour" : 7,
+    "loc" : "Setiabudi_4_",
     "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 140,
+    "date" : 1536278400,
+    "hour" : 16,
+    "loc" : "Setiabudi_4_",
+    "type" : "Tabrak Samping - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 227,
-    "date" : 1527811200,
-    "hour" : 3,
-    "lat" : -6.9001534,
-    "long" : 107.6446645,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
+},{
+    "id" : 141,
+    "date" : 1541030400,
+    "hour" : 9,
+    "loc" : "Setiabudi_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 228,
+},{
+    "id" : 142,
+    "date" : 1542067200,
+    "hour" : 5,
+    "loc" : "Setiabudi_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 143,
+    "date" : 1542499200,
+    "hour" : 19,
+    "loc" : "Setiabudi_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 144,
+    "date" : 1521504000,
+    "hour" : 21,
+    "loc" : "Elang_Raya_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 145,
     "date" : 1527811200,
     "hour" : 3,
-    "lat" : -6.9260215,
-    "long" : 107.7143671,
+    "loc" : "Raya_Ujungberung_4_",
     "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 229,
-    "date" : 1527897600,
-    "hour" : 23,
-    "lat" : -6.9082626,
-    "long" : 107.5741083,
+},{
+    "id" : 146,
+    "date" : 1533340800,
+    "hour" : 12,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 147,
+    "date" : 1532217600,
+    "hour" : 13,
+    "loc" : "Layang_Pasopati_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 4
+},{
+    "id" : 148,
+    "date" : 1516492800,
+    "hour" : 11,
+    "loc" : "Rajawali_Timur_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 149,
+    "date" : 1527206400,
+    "hour" : 12,
+    "loc" : "Gedebage_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 150,
+    "date" : 1529107200,
+    "hour" : 6,
+    "loc" : "Gedebage_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 151,
+    "date" : 1532736000,
+    "hour" : 17,
+    "loc" : "Gedebage_4_",
     "type" : "Tabrak Samping - Samping",
     "death" : 1,
+    "wounded": 1
+},{
+    "id" : 152,
+    "date" : 1532995200,
+    "hour" : 5,
+    "loc" : "Gedebage_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 153,
+    "date" : 1539388800,
+    "hour" : 14,
+    "loc" : "Gedebage_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
     "wounded": 0
-},
-{
-    "id" : 230,
+},{
+    "id" : 154,
+    "date" : 1540857600,
+    "hour" : 21,
+    "loc" : "Gedebage_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 155,
+    "date" : 1517616000,
+    "hour" : 14,
+    "loc" : "Jakarta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 156,
+    "date" : 1539993600,
+    "hour" : 16,
+    "loc" : "Rumah_Sakit_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 157,
     "date" : 1527984000,
     "hour" : 13,
-    "lat" : -6.893918,
-    "long" : 107.5608167,
+    "loc" : "Dr_Djunjunan_4_",
     "type" : "Tabrak Depan - Depan",
     "death" : 1,
     "wounded": 0
-},
-{
-    "id" : 231,
-    "date" : 1527984000,
+},{
+    "id" : 158,
+    "date" : 1535068800,
+    "hour" : 8,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 159,
+    "date" : 1535500800,
+    "hour" : 21,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 4
+},{
+    "id" : 160,
+    "date" : 1537142400,
+    "hour" : 17,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 161,
+    "date" : 1540684800,
+    "hour" : 11,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 162,
+    "date" : 1526601600,
+    "hour" : 18,
+    "loc" : "Karapitan_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 163,
+    "date" : 1543190400,
     "hour" : 20,
-    "lat" : -6.9038392,
-    "long" : 107.6649414,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 164,
+    "date" : 1525132800,
+    "hour" : 2,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 165,
+    "date" : 1527638400,
+    "hour" : 23,
+    "loc" : "Pasir_Kaliki_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 166,
+    "date" : 1515542400,
+    "hour" : 21,
+    "loc" : "Ibrahim_Adjie_4_",
     "type" : "Tabrak Manusia",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 232,
-    "date" : 1528070400,
-    "hour" : 14,
-    "lat" : -6.8943624,
-    "long" : 107.5972798,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 233,
-    "date" : 1528156800,
-    "hour" : 8,
-    "lat" : -6.9375205,
-    "long" : 107.5977537,
-    "type" : "Tabrak Depan - Depan",
+},{
+    "id" : 167,
+    "date" : 1517529600,
+    "hour" : 3,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Belakang",
     "death" : 1,
     "wounded": 0
-},
-{
-    "id" : 234,
-    "date" : 1528243200,
-    "hour" : 7,
-    "lat" : -6.9146218,
-    "long" : 107.5834216,
+},{
+    "id" : 168,
+    "date" : 1520035200,
+    "hour" : 20,
+    "loc" : "Ibrahim_Adjie_4_",
     "type" : "Tabrak Samping - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 235,
-    "date" : 1528329600,
-    "hour" : 6,
-    "lat" : -6.8880481,
-    "long" : 107.5610697,
+},{
+    "id" : 169,
+    "date" : 1520812800,
+    "hour" : 23,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 170,
+    "date" : 1523059200,
+    "hour" : 10,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 171,
+    "date" : 1523577600,
+    "hour" : 13,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 172,
+    "date" : 1533600000,
+    "hour" : 12,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 173,
+    "date" : 1534032000,
+    "hour" : 3,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 174,
+    "date" : 1534291200,
+    "hour" : 7,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 175,
+    "date" : 1534896000,
+    "hour" : 5,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 176,
+    "date" : 1537056000,
+    "hour" : 14,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 177,
+    "date" : 1539734400,
+    "hour" : 7,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 178,
+    "date" : 1541289600,
+    "hour" : 2,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 179,
+    "date" : 1542067200,
+    "hour" : 16,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 180,
+    "date" : 1524528000,
+    "hour" : 14,
+    "loc" : "Jakarta_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 181,
+    "date" : 1522022400,
+    "hour" : 14,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 182,
+    "date" : 1532822400,
+    "hour" : 9,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 183,
+    "date" : 1536364800,
+    "hour" : 14,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 184,
+    "date" : 1541116800,
+    "hour" : 19,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 185,
+    "date" : 1542758400,
+    "hour" : 23,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 186,
+    "date" : 1521763200,
+    "hour" : 18,
+    "loc" : "Jakarta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 187,
+    "date" : 1535587200,
+    "hour" : 20,
+    "loc" : "Jamika_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 188,
+    "date" : 1517961600,
+    "hour" : 18,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 189,
+    "date" : 1525392000,
+    "hour" : 3,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 190,
+    "date" : 1519862400,
+    "hour" : 19,
+    "loc" : "Jawa_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 191,
+    "date" : 1527724800,
+    "hour" : 3,
+    "loc" : "Laswi_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 192,
+    "date" : 1544918400,
+    "hour" : 5,
+    "loc" : "Laswi_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 193,
+    "date" : 1510704000,
+    "hour" : 3,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 194,
+    "date" : 1516665600,
+    "hour" : 8,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 195,
+    "date" : 1517616000,
+    "hour" : 5,
+    "loc" : "Jend_Sudirman_4_",
     "type" : "Tabrak Depan - Belakang",
     "death" : 0,
     "wounded": 2
-},
-{
-    "id" : 236,
-    "date" : 1528329600,
-    "hour" : 14,
-    "lat" : -6.8989952,
-    "long" : 107.6108738,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 237,
-    "date" : 1528329600,
-    "hour" : 22,
-    "lat" : -6.9013893,
-    "long" : 107.6268342,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 238,
-    "date" : 1528675200,
-    "hour" : 15,
-    "lat" : -6.8880481,
-    "long" : 107.5610697,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 239,
-    "date" : 1528761600,
-    "hour" : 5,
-    "lat" : -6.9408091,
-    "long" : 107.6705679,
+},{
+    "id" : 196,
+    "date" : 1519776000,
+    "hour" : 10,
+    "loc" : "Jend_Sudirman_4_",
     "type" : "Tabrak Samping - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 240,
-    "date" : 1528761600,
+},{
+    "id" : 197,
+    "date" : 1520121600,
+    "hour" : 9,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 198,
+    "date" : 1520553600,
+    "hour" : 13,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 199,
+    "date" : 1522281600,
+    "hour" : 6,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 200,
+    "date" : 1528934400,
+    "hour" : 22,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 201,
+    "date" : 1535241600,
+    "hour" : 3,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 202,
+    "date" : 1537660800,
+    "hour" : 3,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 203,
+    "date" : 1542240000,
+    "hour" : 22,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 204,
+    "date" : 1542672000,
+    "hour" : 20,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 205,
+    "date" : 1544745600,
+    "hour" : 9,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Tunggal",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 206,
+    "date" : 1525132800,
+    "hour" : 20,
+    "loc" : "Gatot_Subroto_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 207,
+    "date" : 1525132800,
+    "hour" : 20,
+    "loc" : "Gatot_Subroto_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 208,
+    "date" : 1522195200,
+    "hour" : 21,
+    "loc" : "Achmad_Yani_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 209,
+    "date" : 1523664000,
+    "hour" : 0,
+    "loc" : "Achmad_Yani_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 210,
+    "date" : 1524182400,
     "hour" : 23,
-    "lat" : -6.9045256,
-    "long" : 107.6714955,
+    "loc" : "Achmad_Yani_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 211,
+    "date" : 1526169600,
+    "hour" : 20,
+    "loc" : "Achmad_Yani_4_",
+    "type" : "Tabrak Tunggal",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 212,
+    "date" : 1530316800,
+    "hour" : 5,
+    "loc" : "Achmad_Yani_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 213,
+    "date" : 1538697600,
+    "hour" : 2,
+    "loc" : "Achmad_Yani_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 214,
+    "date" : 1542240000,
+    "hour" : 8,
+    "loc" : "Achmad_Yani_4_",
     "type" : "Tabrak Manusia",
     "death" : 1,
+    "wounded": 0
+},{
+    "id" : 215,
+    "date" : 1525564800,
+    "hour" : 14,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 241,
+},{
+    "id" : 216,
+    "date" : 1516665600,
+    "hour" : 21,
+    "loc" : "Astanaanyar_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 217,
     "date" : 1528848000,
     "hour" : 14,
-    "lat" : -6.8989689,
-    "long" : 107.5851257,
+    "loc" : "Dr_Djunjunan_4_",
     "type" : "Tabrak Depan - Depan",
     "death" : 1,
     "wounded": 0
-},
-{
+},{
+    "id" : 218,
+    "date" : 1544140800,
+    "hour" : 7,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 219,
+    "date" : 1514937600,
+    "hour" : 6,
+    "loc" : "Layang_Pasopati_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 220,
+    "date" : 1538697600,
+    "hour" : 23,
+    "loc" : "Kebonjati_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 221,
+    "date" : 1531008000,
+    "hour" : 6,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 222,
+    "date" : 1532563200,
+    "hour" : 16,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 223,
+    "date" : 1527638400,
+    "hour" : 17,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 224,
+    "date" : 1519084800,
+    "hour" : 0,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 225,
+    "date" : 1524009600,
+    "hour" : 0,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 226,
+    "date" : 1527552000,
+    "hour" : 21,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 227,
+    "date" : 1529884800,
+    "hour" : 13,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 228,
+    "date" : 1531526400,
+    "hour" : 10,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 229,
+    "date" : 1536019200,
+    "hour" : 13,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 230,
+    "date" : 1536883200,
+    "hour" : 12,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 231,
+    "date" : 1539820800,
+    "hour" : 6,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 232,
+    "date" : 1540857600,
+    "hour" : 8,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 233,
+    "date" : 1544227200,
+    "hour" : 23,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 4
+},{
+    "id" : 234,
+    "date" : 1512432000,
+    "hour" : 3,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 235,
+    "date" : 1518134400,
+    "hour" : 10,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 236,
+    "date" : 1545004800,
+    "hour" : 1,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 237,
+    "date" : 1526688000,
+    "hour" : 17,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 238,
+    "date" : 1531180800,
+    "hour" : 21,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 239,
+    "date" : 1508284800,
+    "hour" : 10,
+    "loc" : "Supratman_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 240,
+    "date" : 1521158400,
+    "hour" : 23,
+    "loc" : "Layang_Pasopati_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 241,
+    "date" : 1521158400,
+    "hour" : 1,
+    "loc" : "Layang_Pasopati_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
     "id" : 242,
     "date" : 1528848000,
     "hour" : 21,
-    "lat" : -6.8986869,
-    "long" : 107.6077451,
+    "loc" : "Layang_Pasopati_4_",
     "type" : "Tabrak Samping - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
+},{
     "id" : 243,
-    "date" : 1528934400,
-    "hour" : 22,
-    "lat" : -6.9183622,
-    "long" : 107.5838543,
+    "date" : 1537833600,
+    "hour" : 13,
+    "loc" : "Layang_Pasopati_4_",
     "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
+    "death" : 1,
+    "wounded": 0
+},{
     "id" : 244,
-    "date" : 1529020800,
-    "hour" : 11,
-    "lat" : -6.927321,
-    "long" : 107.6050546,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
+    "date" : 1542585600,
+    "hour" : 6,
+    "loc" : "Layang_Pasopati_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
     "id" : 245,
-    "date" : 1529020800,
-    "hour" : 23,
-    "lat" : -6.9374221,
-    "long" : 107.6939566,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
+    "date" : 1544313600,
+    "hour" : 10,
+    "loc" : "Layang_Pasopati_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
     "wounded": 1
-},
-{
+},{
     "id" : 246,
-    "date" : 1529020800,
-    "hour" : 3,
-    "lat" : -6.9134578,
-    "long" : 107.6950361,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 1,
-    "wounded": 2
-},
-{
-    "id" : 247,
-    "date" : 1529107200,
-    "hour" : 6,
-    "lat" : -6.9509313,
-    "long" : 107.6867556,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 248,
-    "date" : 1529193600,
-    "hour" : 19,
-    "lat" : -6.9407488,
-    "long" : 107.6286029,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 249,
-    "date" : 1529280000,
-    "hour" : 15,
-    "lat" : -6.9266898,
-    "long" : 107.5861348,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 250,
-    "date" : 1529452800,
-    "hour" : 3,
-    "lat" : -6.958797,
-    "long" : 107.5764581,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 251,
-    "date" : 1529539200,
-    "hour" : 2,
-    "lat" : -6.8618862,
-    "long" : 107.5954655,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 252,
-    "date" : 1529625600,
-    "hour" : 11,
-    "lat" : -6.9096313,
-    "long" : 107.6320558,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 253,
-    "date" : 1529625600,
-    "hour" : 8,
-    "lat" : -6.9132829,
-    "long" : 107.6457789,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 254,
-    "date" : 1529712000,
-    "hour" : 8,
-    "lat" : -6.900298,
-    "long" : 107.5864549,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 255,
-    "date" : 1529712000,
-    "hour" : 0,
-    "lat" : -6.921558,
-    "long" : 107.6104367,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 256,
-    "date" : 1529798400,
-    "hour" : 21,
-    "lat" : -6.932313,
-    "long" : 107.60322,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 257,
-    "date" : 1529884800,
-    "hour" : 13,
-    "lat" : -6.9391431,
-    "long" : 107.5935693,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 258,
-    "date" : 1529971200,
-    "hour" : 6,
-    "lat" : -6.9370119,
-    "long" : 107.6921359,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 259,
-    "date" : 1530057600,
+    "date" : 1540684800,
     "hour" : 18,
-    "lat" : -6.8756121,
-    "long" : 107.5795358,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 260,
-    "date" : 1530057600,
-    "hour" : 16,
-    "lat" : -6.948366,
-    "long" : 107.594635,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 261,
-    "date" : 1530230400,
-    "hour" : 3,
-    "lat" : -6.8994134,
-    "long" : 107.627238,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 262,
-    "date" : 1530316800,
-    "hour" : 5,
-    "lat" : -6.915271,
-    "long" : 107.633519,
+    "loc" : "KH_Wahid_Hasyim_4_",
     "type" : "Tabrak Manusia",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 263,
-    "date" : 1530316800,
-    "hour" : 3,
-    "lat" : -6.9417795,
-    "long" : 107.6582145,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 264,
-    "date" : 1530316800,
-    "hour" : 6,
-    "lat" : -6.9349608,
-    "long" : 107.6998088,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 265,
-    "date" : 1530576000,
-    "hour" : 9,
-    "lat" : -6.8955835,
-    "long" : 107.5599827,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 266,
-    "date" : 1530748800,
-    "hour" : 7,
-    "lat" : -6.9521145,
-    "long" : 107.6482425,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 267,
-    "date" : 1530921600,
-    "hour" : 12,
-    "lat" : -6.9069694,
-    "long" : 107.6850458,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 0
-},
-{
-    "id" : 268,
-    "date" : 1530921600,
-    "hour" : 7,
-    "lat" : -6.9348231,
-    "long" : 107.7161756,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 269,
-    "date" : 1531008000,
-    "hour" : 14,
-    "lat" : -6.9319799,
-    "long" : 107.5999061,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 270,
-    "date" : 1531008000,
-    "hour" : 6,
-    "lat" : -6.8935401,
-    "long" : 107.6077239,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 271,
-    "date" : 1531008000,
-    "hour" : 9,
-    "lat" : -6.9093021,
-    "long" : 107.639007,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 272,
-    "date" : 1531180800,
-    "hour" : 21,
-    "lat" : -6.954031,
-    "long" : 107.58412,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 273,
-    "date" : 1531267200,
-    "hour" : 20,
-    "lat" : -6.9216527,
-    "long" : 107.6006689,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 274,
-    "date" : 1531353600,
-    "hour" : 20,
-    "lat" : -6.9130053,
-    "long" : 107.6479271,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 275,
-    "date" : 1531353600,
-    "hour" : 21,
-    "lat" : -6.9366043,
-    "long" : 107.6843559,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 276,
-    "date" : 1531353600,
-    "hour" : 21,
-    "lat" : -6.9342739,
-    "long" : 107.7171918,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 277,
-    "date" : 1531526400,
-    "hour" : 10,
-    "lat" : -6.9387034,
-    "long" : 107.5938912,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 278,
-    "date" : 1531612800,
-    "hour" : 2,
-    "lat" : -6.9100652,
-    "long" : 107.6833302,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 279,
-    "date" : 1531699200,
-    "hour" : 22,
-    "lat" : -6.9029049,
-    "long" : 107.6057172,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 280,
-    "date" : 1531699200,
-    "hour" : 7,
-    "lat" : -6.9334093,
-    "long" : 107.6194859,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 281,
-    "date" : 1531872000,
-    "hour" : 13,
-    "lat" : -6.9426374,
-    "long" : 107.6499972,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 282,
-    "date" : 1531872000,
-    "hour" : 13,
-    "lat" : -6.9431221,
-    "long" : 107.6502931,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 283,
-    "date" : 1531872000,
-    "hour" : 6,
-    "lat" : -6.9362928,
-    "long" : 107.7183965,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 284,
-    "date" : 1531872000,
-    "hour" : 6,
-    "lat" : -6.9362928,
-    "long" : 107.7183965,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 285,
-    "date" : 1531958400,
-    "hour" : 12,
-    "lat" : -6.945012,
-    "long" : 107.608358,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 286,
-    "date" : 1532044800,
-    "hour" : 7,
-    "lat" : -6.8923713,
-    "long" : 107.5806769,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 287,
-    "date" : 1532044800,
-    "hour" : 10,
-    "lat" : -6.8783888,
-    "long" : 107.5869756,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 288,
-    "date" : 1532044800,
-    "hour" : 9,
-    "lat" : -6.9341713,
-    "long" : 107.5914317,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 289,
-    "date" : 1532044800,
-    "hour" : 22,
-    "lat" : -6.9426374,
-    "long" : 107.6499972,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 290,
-    "date" : 1532131200,
-    "hour" : 6,
-    "lat" : -6.9245398,
-    "long" : 107.5988698,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 291,
-    "date" : 1532131200,
-    "hour" : 5,
-    "lat" : -6.9426374,
-    "long" : 107.6499972,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 292,
-    "date" : 1532217600,
-    "hour" : 13,
-    "lat" : -6.8932224,
-    "long" : 107.6107335,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 4
-},
-{
-    "id" : 293,
-    "date" : 1532217600,
-    "hour" : 22,
-    "lat" : -6.8951297,
-    "long" : 107.6427241,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 294,
-    "date" : 1532304000,
-    "hour" : 23,
-    "lat" : -6.9544639,
-    "long" : 107.5933851,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 295,
-    "date" : 1532304000,
-    "hour" : 15,
-    "lat" : -6.8798198,
-    "long" : 107.6036311,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 296,
-    "date" : 1532304000,
-    "hour" : 14,
-    "lat" : -6.9105825,
-    "long" : 107.6328075,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 297,
-    "date" : 1532304000,
-    "hour" : 6,
-    "lat" : -6.9297384,
-    "long" : 107.7106159,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 298,
-    "date" : 1532390400,
-    "hour" : 10,
-    "lat" : -6.9047252,
-    "long" : 107.6083992,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 299,
-    "date" : 1532563200,
-    "hour" : 16,
-    "lat" : -6.8902867,
-    "long" : 107.6068401,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 300,
-    "date" : 1532649600,
-    "hour" : 6,
-    "lat" : -6.9134578,
-    "long" : 107.6950361,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 301,
-    "date" : 1532649600,
-    "hour" : 4,
-    "lat" : -6.9134578,
-    "long" : 107.6950361,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 302,
-    "date" : 1532736000,
-    "hour" : 20,
-    "lat" : -6.9112561,
-    "long" : 107.6332544,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 303,
-    "date" : 1532736000,
-    "hour" : 17,
-    "lat" : -6.9505768,
-    "long" : 107.6984879,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 304,
-    "date" : 1532822400,
-    "hour" : 9,
-    "lat" : -6.9007112,
-    "long" : 107.6127777,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 305,
-    "date" : 1532822400,
-    "hour" : 7,
-    "lat" : -6.9552071,
-    "long" : 107.6477748,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 306,
-    "date" : 1532908800,
-    "hour" : 20,
-    "lat" : -6.9387404,
-    "long" : 107.7033816,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 307,
-    "date" : 1532995200,
-    "hour" : 20,
-    "lat" : -6.9463813,
-    "long" : 107.632853,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 308,
-    "date" : 1532995200,
-    "hour" : 22,
-    "lat" : -6.9603952,
-    "long" : 107.664247,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 309,
-    "date" : 1532995200,
-    "hour" : 19,
-    "lat" : -6.8962192,
-    "long" : 107.6821157,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 310,
-    "date" : 1532995200,
-    "hour" : 5,
-    "lat" : -6.9509313,
-    "long" : 107.6867556,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 311,
-    "date" : 1533081600,
-    "hour" : 22,
-    "lat" : -6.9492224,
-    "long" : 107.6128852,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 312,
-    "date" : 1533254400,
-    "hour" : 21,
-    "lat" : -6.8821572,
-    "long" : 107.599476,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 313,
-    "date" : 1533254400,
-    "hour" : 21,
-    "lat" : -6.8821572,
-    "long" : 107.599476,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 314,
-    "date" : 1533340800,
-    "hour" : 12,
-    "lat" : -6.9557385,
-    "long" : 107.5802648,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 315,
-    "date" : 1533340800,
-    "hour" : 5,
-    "lat" : -6.9069862,
-    "long" : 107.5887058,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 316,
-    "date" : 1533427200,
+},{
+    "id" : 247,
+    "date" : 1511827200,
     "hour" : 0,
-    "lat" : -6.93224,
-    "long" : 107.576693,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 317,
-    "date" : 1533513600,
-    "hour" : 11,
-    "lat" : -6.8468116,
-    "long" : 107.5993664,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 318,
-    "date" : 1533513600,
-    "hour" : 11,
-    "lat" : -6.9214653,
-    "long" : 107.6175407,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 319,
-    "date" : 1533600000,
-    "hour" : 14,
-    "lat" : -6.9396253,
-    "long" : 107.5575595,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 320,
-    "date" : 1533600000,
-    "hour" : 12,
-    "lat" : -6.9135738,
-    "long" : 107.6434985,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 321,
-    "date" : 1533600000,
-    "hour" : 10,
-    "lat" : -6.9426374,
-    "long" : 107.6499972,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 322,
-    "date" : 1533686400,
-    "hour" : 7,
-    "lat" : -6.9211793,
-    "long" : 107.5964128,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 323,
-    "date" : 1533686400,
-    "hour" : 19,
-    "lat" : -6.9100818,
-    "long" : 107.6047328,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 324,
-    "date" : 1533772800,
-    "hour" : 22,
-    "lat" : -6.947242,
-    "long" : 107.6309173,
+    "loc" : "KH_Wahid_Hasyim_4_",
     "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 325,
-    "date" : 1533859200,
-    "hour" : 5,
-    "lat" : -6.889875,
-    "long" : 107.6153599,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 326,
-    "date" : 1534032000,
-    "hour" : 1,
-    "lat" : -6.9052486,
-    "long" : 107.6292511,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 327,
-    "date" : 1534032000,
-    "hour" : 3,
-    "lat" : -6.9180758,
-    "long" : 107.6442535,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 328,
-    "date" : 1534032000,
-    "hour" : 23,
-    "lat" : -6.9346363,
-    "long" : 107.7207226,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 329,
-    "date" : 1534204800,
-    "hour" : 5,
-    "lat" : -6.9075417,
-    "long" : 107.5798128,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 330,
-    "date" : 1534291200,
+},{
+    "id" : 248,
+    "date" : 1532822400,
     "hour" : 7,
-    "lat" : -6.8511298,
-    "long" : 107.5968453,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 331,
-    "date" : 1534291200,
-    "hour" : 7,
-    "lat" : -6.94226,
-    "long" : 107.641758,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 332,
-    "date" : 1534377600,
-    "hour" : 22,
-    "lat" : -6.9438918,
-    "long" : 107.5844054,
+    "loc" : "Soekarno_-_Hatta_4_",
     "type" : "Tabrak Depan - Depan",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 333,
-    "date" : 1534377600,
-    "hour" : 17,
-    "lat" : -6.9210921,
-    "long" : 107.6095347,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 334,
-    "date" : 1534377600,
-    "hour" : 1,
-    "lat" : -6.9692218,
-    "long" : 107.6989905,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 335,
-    "date" : 1534464000,
-    "hour" : 9,
-    "lat" : -6.8977603,
-    "long" : 107.5927453,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 336,
+},{
+    "id" : 249,
     "date" : 1534464000,
     "hour" : 6,
-    "lat" : -6.9546635,
-    "long" : 107.642859,
+    "loc" : "Soekarno_-_Hatta_4_",
     "type" : "Tabrak Depan - Belakang",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 337,
-    "date" : 1534550400,
-    "hour" : 1,
-    "lat" : -6.9135003,
-    "long" : 107.694478,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 338,
-    "date" : 1534636800,
-    "hour" : 16,
-    "lat" : -6.9646113,
-    "long" : 107.6817895,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 339,
-    "date" : 1534723200,
-    "hour" : 12,
-    "lat" : -6.9138261,
-    "long" : 107.6080293,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 340,
-    "date" : 1534809600,
-    "hour" : 6,
-    "lat" : -6.9544146,
-    "long" : 107.5934987,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 341,
-    "date" : 1534896000,
-    "hour" : 13,
-    "lat" : -6.933346,
-    "long" : 107.577349,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 342,
-    "date" : 1534896000,
-    "hour" : 22,
-    "lat" : -6.9052486,
-    "long" : 107.6292511,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 343,
-    "date" : 1534896000,
-    "hour" : 5,
-    "lat" : -6.9386092,
-    "long" : 107.6420806,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 344,
-    "date" : 1534982400,
-    "hour" : 14,
-    "lat" : -6.9426803,
-    "long" : 107.5675319,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 345,
-    "date" : 1535068800,
-    "hour" : 8,
-    "lat" : -6.8929027,
-    "long" : 107.5620454,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 346,
-    "date" : 1535155200,
-    "hour" : 4,
-    "lat" : -6.8917899,
-    "long" : 107.5723429,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 347,
-    "date" : 1535155200,
-    "hour" : 15,
-    "lat" : -6.9340312,
-    "long" : 107.6681869,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 348,
-    "date" : 1535241600,
-    "hour" : 3,
-    "lat" : -6.9174627,
-    "long" : 107.5814903,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 349,
-    "date" : 1535328000,
-    "hour" : 8,
-    "lat" : -6.946238,
-    "long" : 107.5910291,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 350,
-    "date" : 1535328000,
-    "hour" : 15,
-    "lat" : -6.9089631,
-    "long" : 107.5918091,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 351,
-    "date" : 1535500800,
-    "hour" : 21,
-    "lat" : -6.891681,
-    "long" : 107.569803,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 4
-},
-{
-    "id" : 352,
-    "date" : 1535500800,
-    "hour" : 9,
-    "lat" : -6.9294837,
-    "long" : 107.5794755,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 353,
-    "date" : 1535500800,
-    "hour" : 10,
-    "lat" : -6.9373864,
-    "long" : 107.6971373,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 354,
-    "date" : 1535587200,
-    "hour" : 20,
-    "lat" : -6.920348,
-    "long" : 107.5864769,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 355,
-    "date" : 1535846400,
-    "hour" : 15,
-    "lat" : -6.905056,
-    "long" : 107.681085,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 356,
-    "date" : 1536019200,
-    "hour" : 13,
-    "lat" : -6.9553944,
-    "long" : 107.5833609,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 357,
-    "date" : 1536105600,
-    "hour" : 6,
-    "lat" : -6.941768,
-    "long" : 107.652755,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 358,
-    "date" : 1536105600,
-    "hour" : 13,
-    "lat" : -6.9487363,
-    "long" : 107.6661814,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 359,
-    "date" : 1536278400,
-    "hour" : 16,
-    "lat" : -6.8826881,
-    "long" : 107.601416,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 360,
-    "date" : 1536278400,
-    "hour" : 1,
-    "lat" : -6.9567045,
-    "long" : 107.6129776,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 361,
-    "date" : 1536278400,
-    "hour" : 1,
-    "lat" : -6.9563392,
-    "long" : 107.6393017,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 362,
-    "date" : 1536364800,
-    "hour" : 14,
-    "lat" : -6.871647,
-    "long" : 107.620117,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 363,
-    "date" : 1536364800,
-    "hour" : 8,
-    "lat" : -6.9012033,
-    "long" : 107.6248335,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 364,
-    "date" : 1536451200,
-    "hour" : 7,
-    "lat" : -6.930687,
-    "long" : 107.578624,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 365,
-    "date" : 1536451200,
-    "hour" : 11,
-    "lat" : -6.9026916,
-    "long" : 107.6747278,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 366,
-    "date" : 1536451200,
-    "hour" : 10,
-    "lat" : -6.9147825,
-    "long" : 107.7035224,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 367,
-    "date" : 1536537600,
-    "hour" : 11,
-    "lat" : -6.9127107,
-    "long" : 107.6168839,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 368,
-    "date" : 1536537600,
-    "hour" : 14,
-    "lat" : -6.9646113,
-    "long" : 107.6817895,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 369,
-    "date" : 1536883200,
-    "hour" : 12,
-    "lat" : -6.9417494,
-    "long" : 107.5923129,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 370,
-    "date" : 1536883200,
-    "hour" : 23,
-    "lat" : -6.9345062,
-    "long" : 107.6060702,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 371,
-    "date" : 1537056000,
-    "hour" : 6,
-    "lat" : -6.9207739,
-    "long" : 107.6064942,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 372,
-    "date" : 1537056000,
-    "hour" : 23,
-    "lat" : -6.9569925,
-    "long" : 107.6393495,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 373,
-    "date" : 1537056000,
-    "hour" : 14,
-    "lat" : -6.9309386,
-    "long" : 107.6436563,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 374,
-    "date" : 1537142400,
+},{
+    "id" : 250,
+    "date" : 1540166400,
     "hour" : 17,
-    "lat" : -6.895266,
-    "long" : 107.5604331,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 375,
-    "date" : 1537142400,
-    "hour" : 15,
-    "lat" : -6.8988567,
-    "long" : 107.6147204,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 251,
+    "date" : 1526774400,
+    "hour" : 9,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 252,
+    "date" : 1527033600,
+    "hour" : 9,
+    "loc" : "Diponegoro_4_",
     "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 376,
-    "date" : 1537315200,
-    "hour" : 3,
-    "lat" : -6.9229087,
-    "long" : 107.5748975,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 377,
-    "date" : 1537315200,
-    "hour" : 20,
-    "lat" : -6.958797,
-    "long" : 107.5764581,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 378,
+},{
+    "id" : 253,
     "date" : 1537315200,
     "hour" : 12,
-    "lat" : -6.8979606,
-    "long" : 107.6202671,
+    "loc" : "Surapati_4_",
     "type" : "Tabrak Samping - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 379,
-    "date" : 1537315200,
-    "hour" : 22,
-    "lat" : -6.9051903,
-    "long" : 107.6268164,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 1,
+},{
+    "id" : 254,
+    "date" : 1515974400,
+    "hour" : 1,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 380,
-    "date" : 1537401600,
-    "hour" : 9,
-    "lat" : -6.9354361,
-    "long" : 107.7197976,
+},{
+    "id" : 255,
+    "date" : 1523750400,
+    "hour" : 6,
+    "loc" : "Ir_H_Djuanda_4_",
     "type" : "Tabrak Tunggal",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 381,
-    "date" : 1537574400,
-    "hour" : 22,
-    "lat" : -6.886234,
-    "long" : 107.581237,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 382,
-    "date" : 1537574400,
-    "hour" : 3,
-    "lat" : -6.8991206,
-    "long" : 107.6315142,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 383,
-    "date" : 1537660800,
-    "hour" : 3,
-    "lat" : -6.9204327,
-    "long" : 107.6023441,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 384,
-    "date" : 1537660800,
-    "hour" : 3,
-    "lat" : -6.9323094,
-    "long" : 107.6179947,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 385,
-    "date" : 1537747200,
-    "hour" : 19,
-    "lat" : -6.9372021,
-    "long" : 107.582963,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 386,
-    "date" : 1537747200,
-    "hour" : 2,
-    "lat" : -6.9279103,
-    "long" : 107.6152639,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 387,
-    "date" : 1537833600,
-    "hour" : 13,
-    "lat" : -6.9012472,
-    "long" : 107.608215,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 388,
-    "date" : 1537833600,
-    "hour" : 10,
-    "lat" : -6.8988641,
-    "long" : 107.6091317,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 389,
-    "date" : 1537833600,
-    "hour" : 23,
-    "lat" : -6.9127664,
-    "long" : 107.6671287,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 390,
-    "date" : 1537920000,
-    "hour" : 13,
-    "lat" : -6.9270095,
-    "long" : 107.5664994,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 391,
-    "date" : 1538179200,
-    "hour" : 13,
-    "lat" : -6.912504,
-    "long" : 107.6506616,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 392,
-    "date" : 1538438400,
-    "hour" : 12,
-    "lat" : -6.9467648,
-    "long" : 107.5934214,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 393,
-    "date" : 1538438400,
-    "hour" : 7,
-    "lat" : -6.9090059,
-    "long" : 107.6142259,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 394,
-    "date" : 1538438400,
-    "hour" : 4,
-    "lat" : -6.9012427,
-    "long" : 107.6245205,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 395,
-    "date" : 1538697600,
-    "hour" : 23,
-    "lat" : -6.9160268,
-    "long" : 107.6007948,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 396,
-    "date" : 1538697600,
-    "hour" : 2,
-    "lat" : -6.9097002,
-    "long" : 107.641072,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 397,
-    "date" : 1538784000,
-    "hour" : 6,
-    "lat" : -6.9348739,
-    "long" : 107.5921636,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 398,
-    "date" : 1538956800,
-    "hour" : 11,
-    "lat" : -6.912014,
-    "long" : 107.6655644,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 0
-},
-{
-    "id" : 399,
-    "date" : 1539043200,
-    "hour" : 8,
-    "lat" : -6.958797,
-    "long" : 107.5764581,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 400,
-    "date" : 1539043200,
-    "hour" : 23,
-    "lat" : -6.8862455,
-    "long" : 107.581355,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 401,
-    "date" : 1539043200,
-    "hour" : 0,
-    "lat" : -6.8957749,
-    "long" : 107.601345,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 4
-},
-{
-    "id" : 402,
-    "date" : 1539129600,
-    "hour" : 23,
-    "lat" : -6.9494041,
-    "long" : 107.5941241,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 403,
-    "date" : 1539216000,
-    "hour" : 23,
-    "lat" : -6.9426374,
-    "long" : 107.6499972,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 404,
-    "date" : 1539388800,
-    "hour" : 16,
-    "lat" : -6.9648447,
-    "long" : 107.6506778,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 405,
-    "date" : 1539388800,
-    "hour" : 14,
-    "lat" : -6.9684777,
-    "long" : 107.6998438,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 406,
-    "date" : 1539561600,
-    "hour" : 19,
-    "lat" : -6.9212221,
-    "long" : 107.6177399,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 407,
-    "date" : 1539734400,
-    "hour" : 6,
-    "lat" : -6.892097,
-    "long" : 107.5822808,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 408,
-    "date" : 1539734400,
-    "hour" : 19,
-    "lat" : -6.9323688,
-    "long" : 107.5899745,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 0
-},
-{
-    "id" : 409,
-    "date" : 1539734400,
-    "hour" : 19,
-    "lat" : -6.9323688,
-    "long" : 107.5899745,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 410,
-    "date" : 1539734400,
-    "hour" : 7,
-    "lat" : -6.94226,
-    "long" : 107.641758,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 411,
-    "date" : 1539820800,
-    "hour" : 6,
-    "lat" : -6.9528792,
-    "long" : 107.5848674,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 412,
-    "date" : 1539907200,
-    "hour" : 18,
-    "lat" : -6.9394682,
-    "long" : 107.6349191,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 413,
-    "date" : 1539993600,
-    "hour" : 16,
-    "lat" : -6.9134483,
-    "long" : 107.6905401,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 414,
-    "date" : 1540080000,
-    "hour" : 6,
-    "lat" : -6.9309474,
-    "long" : 107.5763245,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 415,
-    "date" : 1540166400,
-    "hour" : 17,
-    "lat" : -6.9083574,
-    "long" : 107.5681508,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 416,
-    "date" : 1540166400,
-    "hour" : 6,
-    "lat" : -6.9476289,
-    "long" : 107.5973158,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 417,
-    "date" : 1540166400,
-    "hour" : 17,
-    "lat" : -6.9561875,
-    "long" : 107.6518445,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 418,
-    "date" : 1540252800,
-    "hour" : 0,
-    "lat" : -6.9122288,
-    "long" : 107.6537381,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 419,
-    "date" : 1540339200,
-    "hour" : 9,
-    "lat" : -6.9037462,
-    "long" : 107.6221852,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 420,
-    "date" : 1540425600,
-    "hour" : 2,
-    "lat" : -6.8995282,
-    "long" : 107.6276731,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 421,
-    "date" : 1540425600,
-    "hour" : 22,
-    "lat" : -6.9426374,
-    "long" : 107.6499972,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 422,
-    "date" : 1540425600,
-    "hour" : 2,
-    "lat" : -6.9037343,
-    "long" : 107.6634755,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 423,
-    "date" : 1540512000,
-    "hour" : 8,
-    "lat" : -6.8981199,
-    "long" : 107.5932315,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 424,
-    "date" : 1540684800,
-    "hour" : 11,
-    "lat" : -6.8892341,
-    "long" : 107.5666748,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 425,
-    "date" : 1540684800,
-    "hour" : 18,
-    "lat" : -6.9428217,
-    "long" : 107.5958972,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 426,
-    "date" : 1540857600,
-    "hour" : 8,
-    "lat" : -6.9325567,
-    "long" : 107.5966787,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 427,
-    "date" : 1540857600,
-    "hour" : 14,
-    "lat" : -6.9498411,
-    "long" : 107.6268104,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 428,
-    "date" : 1540857600,
-    "hour" : 23,
-    "lat" : -6.9026262,
-    "long" : 107.6434748,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 429,
-    "date" : 1540857600,
-    "hour" : 21,
-    "lat" : -6.9509313,
-    "long" : 107.6867556,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 430,
-    "date" : 1541030400,
-    "hour" : 9,
-    "lat" : -6.8613681,
-    "long" : 107.5925734,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 431,
-    "date" : 1541030400,
-    "hour" : 23,
-    "lat" : -6.8854508,
-    "long" : 107.6204268,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 432,
-    "date" : 1541030400,
-    "hour" : 12,
-    "lat" : -6.9134578,
-    "long" : 107.6950361,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 433,
-    "date" : 1541116800,
-    "hour" : 19,
-    "lat" : -6.8725079,
-    "long" : 107.619385,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 434,
-    "date" : 1541289600,
-    "hour" : 4,
-    "lat" : -6.9572511,
-    "long" : 107.6124582,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 435,
-    "date" : 1541289600,
-    "hour" : 6,
-    "lat" : -6.9148652,
-    "long" : 107.6177533,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 436,
-    "date" : 1541289600,
-    "hour" : 2,
-    "lat" : -6.9189916,
-    "long" : 107.6438533,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 437,
-    "date" : 1541548800,
-    "hour" : 3,
-    "lat" : -6.9426374,
-    "long" : 107.6499972,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 438,
-    "date" : 1541635200,
-    "hour" : 21,
-    "lat" : -6.9134578,
-    "long" : 107.6950361,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 439,
-    "date" : 1541721600,
-    "hour" : 23,
-    "lat" : -6.9563392,
-    "long" : 107.6393017,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 440,
-    "date" : 1541894400,
-    "hour" : 6,
-    "lat" : -6.8856651,
-    "long" : 107.6313808,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 441,
-    "date" : 1541980800,
-    "hour" : 6,
-    "lat" : -6.90579,
-    "long" : 107.62578,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 442,
-    "date" : 1541980800,
-    "hour" : 14,
-    "lat" : -6.9123365,
-    "long" : 107.7113372,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 443,
+},{
+    "id" : 256,
     "date" : 1542067200,
+    "hour" : 7,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 257,
+    "date" : 1508889600,
+    "hour" : 14,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 258,
+    "date" : 1524009600,
+    "hour" : 20,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 259,
+    "date" : 1525219200,
+    "hour" : 20,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 260,
+    "date" : 1527120000,
+    "hour" : 19,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 261,
+    "date" : 1527379200,
+    "hour" : 9,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 262,
+    "date" : 1531958400,
+    "hour" : 12,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 263,
+    "date" : 1536278400,
+    "hour" : 1,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 264,
+    "date" : 1536883200,
+    "hour" : 23,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 265,
+    "date" : 1541289600,
+    "hour" : 4,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 266,
+    "date" : 1543795200,
+    "hour" : 6,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 3
+},{
+    "id" : 267,
+    "date" : 1544572800,
+    "hour" : 4,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 268,
+    "date" : 1530316800,
+    "hour" : 3,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 269,
+    "date" : 1533859200,
     "hour" : 5,
-    "lat" : -6.862192,
-    "long" : 107.5961578,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 444,
-    "date" : 1542067200,
-    "hour" : 7,
-    "lat" : -6.9084178,
-    "long" : 107.6104191,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 3
-},
-{
-    "id" : 445,
-    "date" : 1542067200,
-    "hour" : 16,
-    "lat" : -6.933462,
-    "long" : 107.6426149,
-    "type" : "Tabrak Depan - Belakang",
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 446,
-    "date" : 1542240000,
-    "hour" : 22,
-    "lat" : -6.9186457,
-    "long" : 107.5864023,
+},{
+    "id" : 270,
+    "date" : 1517702400,
+    "hour" : 12,
+    "loc" : "Otto_Iskandar_Dinata_4_",
     "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 447,
-    "date" : 1542240000,
-    "hour" : 8,
-    "lat" : -6.9192527,
-    "long" : 107.6220919,
+    "death" : 0,
+    "wounded": 5
+},{
+    "id" : 271,
+    "date" : 1520208000,
+    "hour" : 19,
+    "loc" : "Otto_Iskandar_Dinata_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 272,
+    "date" : 1522972800,
+    "hour" : 21,
+    "loc" : "Otto_Iskandar_Dinata_4_",
     "type" : "Tabrak Manusia",
     "death" : 1,
     "wounded": 0
-},
-{
-    "id" : 448,
+},{
+    "id" : 273,
+    "date" : 1526169600,
+    "hour" : 4,
+    "loc" : "Otto_Iskandar_Dinata_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 274,
+    "date" : 1529020800,
+    "hour" : 11,
+    "loc" : "Otto_Iskandar_Dinata_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 275,
+    "date" : 1529798400,
+    "hour" : 21,
+    "loc" : "Otto_Iskandar_Dinata_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 276,
     "date" : 1542326400,
     "hour" : 13,
-    "lat" : -6.9269407,
-    "long" : 107.6037027,
+    "loc" : "Otto_Iskandar_Dinata_4_",
     "type" : "Tabrak Samping - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 449,
-    "date" : 1542412800,
-    "hour" : 15,
-    "lat" : -6.946859,
-    "long" : 107.638446,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 450,
-    "date" : 1542499200,
-    "hour" : 19,
-    "lat" : -6.923072,
-    "long" : 107.595498,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 451,
-    "date" : 1542499200,
-    "hour" : 19,
-    "lat" : -6.8624278,
-    "long" : 107.5962234,
-    "type" : "Tabrak Depan - Depan",
+},{
+    "id" : 277,
+    "date" : 1523145600,
+    "hour" : 11,
+    "loc" : "P_H_H_Mustofa_4_",
+    "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 452,
-    "date" : 1542499200,
-    "hour" : 9,
-    "lat" : -6.8926126,
-    "long" : 107.6680058,
+},{
+    "id" : 278,
+    "date" : 1545955200,
+    "hour" : 18,
+    "loc" : "P_H_H_Mustofa_4_",
     "type" : "Tabrak Depan - Belakang",
     "death" : 1,
     "wounded": 1
-},
-{
-    "id" : 453,
-    "date" : 1542585600,
-    "hour" : 6,
-    "lat" : -6.9047153,
-    "long" : 107.6185727,
+},{
+    "id" : 279,
+    "date" : 1542499200,
+    "hour" : 19,
+    "loc" : "Pagarsih_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 280,
+    "date" : 1533340800,
+    "hour" : 5,
+    "loc" : "Pajajaran_4_",
     "type" : "Tabrak Samping - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
+},{
+    "id" : 281,
+    "date" : 1541980800,
+    "hour" : 14,
+    "loc" : "Karapitan_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 282,
+    "date" : 1544745600,
+    "hour" : 10,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 283,
+    "date" : 1509235200,
+    "hour" : 15,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 284,
+    "date" : 1535155200,
+    "hour" : 15,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 285,
+    "date" : 1536451200,
+    "hour" : 11,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 286,
+    "date" : 1526428800,
+    "hour" : 5,
+    "loc" : "Pasir_Kaliki_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 287,
+    "date" : 1525996800,
+    "hour" : 22,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 288,
+    "date" : 1527033600,
+    "hour" : 15,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 289,
+    "date" : 1521331200,
+    "hour" : 17,
+    "loc" : "Layang_Pasopati_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 290,
+    "date" : 1525564800,
+    "hour" : 19,
+    "loc" : "Layang_Pasopati_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 291,
+    "date" : 1525651200,
+    "hour" : 9,
+    "loc" : "Layang_Pasopati_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 292,
+    "date" : 1525132800,
+    "hour" : 2,
+    "loc" : "Pelajar_Pejuang_45_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 293,
+    "date" : 1520208000,
+    "hour" : 21,
+    "loc" : "Peta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 294,
+    "date" : 1528156800,
+    "hour" : 8,
+    "loc" : "Peta_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 295,
+    "date" : 1532044800,
+    "hour" : 9,
+    "loc" : "Peta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 296,
+    "date" : 1538784000,
+    "hour" : 6,
+    "loc" : "Peta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 297,
+    "date" : 1539734400,
+    "hour" : 19,
+    "loc" : "Peta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 0
+},{
+    "id" : 298,
+    "date" : 1539734400,
+    "hour" : 19,
+    "loc" : "Peta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 299,
+    "date" : 1514764800,
+    "hour" : 2,
+    "loc" : "P_H_H_Mustofa_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 300,
+    "date" : 1517961600,
+    "hour" : 16,
+    "loc" : "P_H_H_Mustofa_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 301,
+    "date" : 1520380800,
+    "hour" : 21,
+    "loc" : "P_H_H_Mustofa_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 302,
+    "date" : 1521158400,
+    "hour" : 0,
+    "loc" : "P_H_H_Mustofa_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 303,
+    "date" : 1524614400,
+    "hour" : 2,
+    "loc" : "P_H_H_Mustofa_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 304,
+    "date" : 1527811200,
+    "hour" : 3,
+    "loc" : "P_H_H_Mustofa_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 305,
+    "date" : 1543795200,
+    "hour" : 4,
+    "loc" : "P_H_H_Mustofa_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 306,
+    "date" : 1544659200,
+    "hour" : 3,
+    "loc" : "P_H_H_Mustofa_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 307,
+    "date" : 1532044800,
+    "hour" : 10,
+    "loc" : "Dr_Sutami_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 308,
+    "date" : 1525478400,
+    "hour" : 8,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 309,
+    "date" : 1526256000,
+    "hour" : 14,
+    "loc" : "Jakarta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 310,
+    "date" : 1545523200,
+    "hour" : 15,
+    "loc" : "Jakarta_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 311,
+    "date" : 1519862400,
+    "hour" : 19,
+    "loc" : "RE_Martadinata_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 312,
+    "date" : 1523750400,
+    "hour" : 14,
+    "loc" : "RE_Martadinata_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 313,
+    "date" : 1519948800,
+    "hour" : 3,
+    "loc" : "Rajawali_Timur_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 314,
+    "date" : 1526860800,
+    "hour" : 3,
+    "loc" : "Rajawali_Timur_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 315,
+    "date" : 1518048000,
+    "hour" : 21,
+    "loc" : "Rajawali_Timur_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 316,
+    "date" : 1510272000,
+    "hour" : 17,
+    "loc" : "Ciumbuleuit_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 317,
+    "date" : 1534809600,
+    "hour" : 6,
+    "loc" : "KH_Wahid_Hasyim_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 318,
+    "date" : 1527811200,
+    "hour" : 8,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 319,
+    "date" : 1540166400,
+    "hour" : 17,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 320,
+    "date" : 1534032000,
+    "hour" : 23,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 321,
+    "date" : 1527984000,
+    "hour" : 20,
+    "loc" : "A_H_Nasution_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 322,
+    "date" : 1518134400,
+    "hour" : 15,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 323,
+    "date" : 1530576000,
+    "hour" : 9,
+    "loc" : "Jend_Sudirman_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 324,
+    "date" : 1516320000,
+    "hour" : 4,
+    "loc" : "Raya_Ujungberung_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 325,
+    "date" : 1526774400,
+    "hour" : 21,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 326,
+    "date" : 1515369600,
+    "hour" : 7,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 327,
+    "date" : 1525046400,
+    "hour" : 6,
+    "loc" : "Rumah_Sakit_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 328,
+    "date" : 1544572800,
+    "hour" : 16,
+    "loc" : "Rumah_Sakit_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 329,
+    "date" : 1522022400,
+    "hour" : 12,
+    "loc" : "Sadang_Sari_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 330,
+    "date" : 1539907200,
+    "hour" : 18,
+    "loc" : "Buah_Batu_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 331,
+    "date" : 1524873600,
+    "hour" : 23,
+    "loc" : "Dr_Sutami_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 332,
+    "date" : 1530057600,
+    "hour" : 18,
+    "loc" : "Dr_Sutami_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 333,
+    "date" : 1516233600,
+    "hour" : 16,
+    "loc" : "Diponegoro_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 334,
+    "date" : 1509580800,
+    "hour" : 17,
+    "loc" : "Gedebage_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 335,
+    "date" : 1517702400,
+    "hour" : 10,
+    "loc" : "Siliwangi_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 336,
+    "date" : 1520121600,
+    "hour" : 10,
+    "loc" : "Siliwangi_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 337,
+    "date" : 1518480000,
+    "hour" : 4,
+    "loc" : "Raya_Ujungberung_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 338,
+    "date" : 1521849600,
+    "hour" : 10,
+    "loc" : "Raya_Ujungberung_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 339,
+    "date" : 1544054400,
+    "hour" : 18,
+    "loc" : "Raya_Ujungberung_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 340,
+    "date" : 1522540800,
+    "hour" : 15,
+    "loc" : "Jakarta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 341,
+    "date" : 1514764800,
+    "hour" : 23,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 342,
+    "date" : 1514764800,
+    "hour" : 4,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 343,
+    "date" : 1514851200,
+    "hour" : 5,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 344,
+    "date" : 1516233600,
+    "hour" : 7,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 345,
+    "date" : 1517961600,
+    "hour" : 10,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 346,
+    "date" : 1518048000,
+    "hour" : 6,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 347,
+    "date" : 1518048000,
+    "hour" : 10,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 348,
+    "date" : 1518393600,
+    "hour" : 20,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 349,
+    "date" : 1518393600,
+    "hour" : 8,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 350,
+    "date" : 1518652800,
+    "hour" : 6,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 351,
+    "date" : 1518912000,
+    "hour" : 22,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 352,
+    "date" : 1520035200,
+    "hour" : 11,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 353,
+    "date" : 1520121600,
+    "hour" : 21,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 354,
+    "date" : 1520294400,
+    "hour" : 8,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 355,
+    "date" : 1520553600,
+    "hour" : 17,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 356,
+    "date" : 1521676800,
+    "hour" : 9,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 357,
+    "date" : 1521676800,
+    "hour" : 16,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 358,
+    "date" : 1522540800,
+    "hour" : 17,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 359,
+    "date" : 1522627200,
+    "hour" : 0,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 360,
+    "date" : 1522972800,
+    "hour" : 12,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 361,
+    "date" : 1523577600,
+    "hour" : 18,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 362,
+    "date" : 1524960000,
+    "hour" : 21,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 363,
+    "date" : 1525564800,
+    "hour" : 9,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 364,
+    "date" : 1525737600,
+    "hour" : 6,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 365,
+    "date" : 1526169600,
+    "hour" : 2,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 366,
+    "date" : 1526256000,
+    "hour" : 19,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 367,
+    "date" : 1527292800,
+    "hour" : 22,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 2
+},{
+    "id" : 368,
+    "date" : 1527379200,
+    "hour" : 0,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 369,
+    "date" : 1527379200,
+    "hour" : 10,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 370,
+    "date" : 1527638400,
+    "hour" : 22,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 371,
+    "date" : 1528761600,
+    "hour" : 5,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 372,
+    "date" : 1529020800,
+    "hour" : 23,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 373,
+    "date" : 1529971200,
+    "hour" : 6,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 374,
+    "date" : 1530316800,
+    "hour" : 6,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 375,
+    "date" : 1530921600,
+    "hour" : 7,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 376,
+    "date" : 1531353600,
+    "hour" : 21,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 377,
+    "date" : 1531872000,
+    "hour" : 13,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 378,
+    "date" : 1531872000,
+    "hour" : 13,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 379,
+    "date" : 1531872000,
+    "hour" : 6,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 380,
+    "date" : 1531872000,
+    "hour" : 6,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 381,
+    "date" : 1532044800,
+    "hour" : 22,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 382,
+    "date" : 1532131200,
+    "hour" : 5,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 383,
+    "date" : 1532304000,
+    "hour" : 6,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 384,
+    "date" : 1532908800,
+    "hour" : 20,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 385,
+    "date" : 1533081600,
+    "hour" : 22,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 386,
+    "date" : 1533427200,
+    "hour" : 0,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 387,
+    "date" : 1533600000,
+    "hour" : 10,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 388,
+    "date" : 1534896000,
+    "hour" : 13,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 389,
+    "date" : 1535328000,
+    "hour" : 8,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 390,
+    "date" : 1535500800,
+    "hour" : 10,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 391,
+    "date" : 1536105600,
+    "hour" : 6,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 392,
+    "date" : 1536451200,
+    "hour" : 7,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 393,
+    "date" : 1537315200,
+    "hour" : 3,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 394,
+    "date" : 1538438400,
+    "hour" : 12,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 395,
+    "date" : 1539216000,
+    "hour" : 23,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 396,
+    "date" : 1540080000,
+    "hour" : 6,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 397,
+    "date" : 1540166400,
+    "hour" : 6,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 398,
+    "date" : 1540425600,
+    "hour" : 22,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 399,
+    "date" : 1540857600,
+    "hour" : 14,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 400,
+    "date" : 1541548800,
+    "hour" : 3,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 401,
+    "date" : 1542412800,
+    "hour" : 15,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 402,
+    "date" : 1542585600,
+    "hour" : 3,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 403,
+    "date" : 1542672000,
+    "hour" : 1,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 404,
+    "date" : 1542758400,
+    "hour" : 11,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 405,
+    "date" : 1542844800,
+    "hour" : 11,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 406,
+    "date" : 1542931200,
+    "hour" : 20,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 407,
+    "date" : 1543190400,
+    "hour" : 17,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 408,
+    "date" : 1543363200,
+    "hour" : 21,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 409,
+    "date" : 1543363200,
+    "hour" : 1,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 410,
+    "date" : 1543795200,
+    "hour" : 21,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 411,
+    "date" : 1544400000,
+    "hour" : 19,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 412,
+    "date" : 1545091200,
+    "hour" : 12,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Tunggal",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 413,
+    "date" : 1545350400,
+    "hour" : 19,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 414,
+    "date" : 1545782400,
+    "hour" : 15,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 415,
+    "date" : 1527724800,
+    "hour" : 0,
+    "loc" : "Ibrahim_Adjie_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 416,
+    "date" : 1513728000,
+    "hour" : 14,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 417,
+    "date" : 1527897600,
+    "hour" : 23,
+    "loc" : "Rajawali_Timur_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 418,
+    "date" : 1526601600,
+    "hour" : 19,
+    "loc" : "Moch_Toha_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 419,
+    "date" : 1524614400,
+    "hour" : 11,
+    "loc" : "Sukabumi_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 420,
+    "date" : 1525996800,
+    "hour" : 2,
+    "loc" : "Sukabumi_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 421,
+    "date" : 1528070400,
+    "hour" : 14,
+    "loc" : "Sukajadi_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 422,
+    "date" : 1535155200,
+    "hour" : 4,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 423,
+    "date" : 1544659200,
+    "hour" : 13,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Tunggal",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 424,
+    "date" : 1519430400,
+    "hour" : 23,
+    "loc" : "Sumbawa_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 425,
+    "date" : 1525478400,
+    "hour" : 21,
+    "loc" : "Sumbawa_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 0
+},{
+    "id" : 426,
+    "date" : 1536537600,
+    "hour" : 11,
+    "loc" : "Sumbawa_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 427,
+    "date" : 1541289600,
+    "hour" : 6,
+    "loc" : "Sumbawa_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 428,
+    "date" : 1533513600,
+    "hour" : 11,
+    "loc" : "Sunda_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 429,
+    "date" : 1539561600,
+    "hour" : 19,
+    "loc" : "Sunda_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 430,
+    "date" : 1529712000,
+    "hour" : 8,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 431,
+    "date" : 1542672000,
+    "hour" : 12,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 432,
+    "date" : 1514505600,
+    "hour" : 0,
+    "loc" : "Supratman_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 433,
+    "date" : 1528329600,
+    "hour" : 22,
+    "loc" : "Supratman_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 434,
+    "date" : 1532304000,
+    "hour" : 14,
+    "loc" : "Supratman_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 435,
+    "date" : 1532736000,
+    "hour" : 20,
+    "loc" : "Supratman_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 436,
+    "date" : 1534032000,
+    "hour" : 1,
+    "loc" : "Supratman_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 437,
+    "date" : 1534896000,
+    "hour" : 22,
+    "loc" : "Supratman_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 438,
+    "date" : 1515283200,
+    "hour" : 10,
+    "loc" : "Surapati_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 439,
+    "date" : 1522108800,
+    "hour" : 7,
+    "loc" : "Surapati_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 440,
+    "date" : 1530230400,
+    "hour" : 3,
+    "loc" : "Surapati_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 441,
+    "date" : 1537142400,
+    "hour" : 15,
+    "loc" : "Surapati_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 442,
+    "date" : 1537574400,
+    "hour" : 3,
+    "loc" : "Surapati_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 443,
+    "date" : 1540425600,
+    "hour" : 2,
+    "loc" : "Surapati_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 444,
+    "date" : 1505260800,
+    "hour" : 19,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 445,
+    "date" : 1537574400,
+    "hour" : 22,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 446,
+    "date" : 1539043200,
+    "hour" : 23,
+    "loc" : "Dr_Djunjunan_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 447,
+    "date" : 1522195200,
+    "hour" : 11,
+    "loc" : "Buah_Batu_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 448,
+    "date" : 1537833600,
+    "hour" : 10,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 449,
+    "date" : 1517788800,
+    "hour" : 11,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 450,
+    "date" : 1518825600,
+    "hour" : 4,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 451,
+    "date" : 1532390400,
+    "hour" : 10,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 452,
+    "date" : 1531699200,
+    "hour" : 22,
+    "loc" : "Ir_H_Djuanda_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 453,
+    "date" : 1538956800,
+    "hour" : 11,
+    "loc" : "Jakarta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 0
+},{
     "id" : 454,
+    "date" : 1536105600,
+    "hour" : 13,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 455,
+    "date" : 1517702400,
+    "hour" : 9,
+    "loc" : "Terusan_Buah_Batu_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 456,
+    "date" : 1525305600,
+    "hour" : 3,
+    "loc" : "Terusan_Buah_Batu_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 457,
+    "date" : 1536278400,
+    "hour" : 1,
+    "loc" : "Terusan_Buah_Batu_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 458,
+    "date" : 1537056000,
+    "hour" : 23,
+    "loc" : "Terusan_Buah_Batu_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 459,
+    "date" : 1541721600,
+    "hour" : 23,
+    "loc" : "Terusan_Buah_Batu_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 460,
+    "date" : 1544227200,
+    "hour" : 16,
+    "loc" : "Terusan_Buah_Batu_4_",
+    "type" : "Tabrak Tunggal",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 461,
+    "date" : 1534982400,
+    "hour" : 14,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 462,
+    "date" : 1529625600,
+    "hour" : 8,
+    "loc" : "Jakarta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 463,
+    "date" : 1531353600,
+    "hour" : 20,
+    "loc" : "Jakarta_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 464,
+    "date" : 1537833600,
+    "hour" : 23,
+    "loc" : "Jakarta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 465,
+    "date" : 1538179200,
+    "hour" : 13,
+    "loc" : "Jakarta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 466,
+    "date" : 1540252800,
+    "hour" : 0,
+    "loc" : "Jakarta_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 467,
+    "date" : 1513814400,
+    "hour" : 20,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 468,
+    "date" : 1515196800,
+    "hour" : 8,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 469,
+    "date" : 1516320000,
+    "hour" : 21,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Depan - Depan",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 470,
+    "date" : 1519257600,
+    "hour" : 19,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 471,
+    "date" : 1521158400,
+    "hour" : 20,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 472,
+    "date" : 1526688000,
+    "hour" : 0,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 473,
+    "date" : 1529280000,
+    "hour" : 15,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 474,
+    "date" : 1535500800,
+    "hour" : 9,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 475,
+    "date" : 1543276800,
+    "hour" : 23,
+    "loc" : "Terusan_Pasirkoja_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 476,
+    "date" : 1519084800,
+    "hour" : 14,
+    "loc" : "Tubagus_Ismail_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 477,
+    "date" : 1528329600,
+    "hour" : 6,
+    "loc" : "Tol_Pasteur_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 478,
+    "date" : 1528675200,
+    "hour" : 15,
+    "loc" : "Tol_Pasteur_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 479,
+    "date" : 1516579200,
+    "hour" : 3,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 480,
+    "date" : 1517788800,
+    "hour" : 21,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 2
+},{
+    "id" : 481,
+    "date" : 1520640000,
+    "hour" : 5,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 482,
+    "date" : 1523059200,
+    "hour" : 2,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 483,
+    "date" : 1523318400,
+    "hour" : 4,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Tunggal",
+    "death" : 0,
+    "wounded": 6
+},{
+    "id" : 484,
+    "date" : 1524355200,
+    "hour" : 21,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 485,
+    "date" : 1524873600,
+    "hour" : 10,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 486,
+    "date" : 1526342400,
+    "hour" : 5,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 487,
+    "date" : 1529452800,
+    "hour" : 3,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 0,
+    "wounded": 1
+},{
+    "id" : 488,
+    "date" : 1534377600,
+    "hour" : 1,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 1
+},{
+    "id" : 489,
+    "date" : 1537315200,
+    "hour" : 20,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Manusia",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 490,
+    "date" : 1539043200,
+    "hour" : 8,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Depan - Belakang",
+    "death" : 1,
+    "wounded": 0
+},{
+    "id" : 491,
+    "date" : 1539388800,
+    "hour" : 16,
+    "loc" : "Padaleunyi_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
+    "wounded": 3
+},{
+    "id" : 492,
     "date" : 1542585600,
     "hour" : 9,
-    "lat" : -6.964819,
-    "long" : 107.6463685,
+    "loc" : "Padaleunyi_4_",
     "type" : "Tabrak Tunggal",
     "death" : 1,
     "wounded": 6
-},
-{
-    "id" : 455,
-    "date" : 1542585600,
-    "hour" : 3,
-    "lat" : -6.9426374,
-    "long" : 107.6499972,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 456,
-    "date" : 1542672000,
-    "hour" : 20,
-    "lat" : -6.9179763,
-    "long" : 107.5824853,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 457,
-    "date" : 1542672000,
-    "hour" : 12,
-    "lat" : -6.896903,
-    "long" : 107.5849911,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 458,
-    "date" : 1542672000,
-    "hour" : 1,
-    "lat" : -6.9476796,
-    "long" : 107.6020354,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 459,
-    "date" : 1542758400,
-    "hour" : 11,
-    "lat" : -6.947725,
-    "long" : 107.598732,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 460,
-    "date" : 1542758400,
-    "hour" : 23,
-    "lat" : -6.8825448,
-    "long" : 107.6152841,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 461,
-    "date" : 1542844800,
-    "hour" : 11,
-    "lat" : -6.9323382,
-    "long" : 107.5767297,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 462,
-    "date" : 1542844800,
-    "hour" : 12,
-    "lat" : -6.9204283,
-    "long" : 107.5928508,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 463,
-    "date" : 1542844800,
-    "hour" : 10,
-    "lat" : -6.90439,
-    "long" : 107.670885,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 464,
-    "date" : 1542931200,
-    "hour" : 20,
-    "lat" : -6.9480787,
-    "long" : 107.597801,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 465,
-    "date" : 1543190400,
-    "hour" : 20,
-    "lat" : -6.9615846,
-    "long" : 107.6460892,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 466,
-    "date" : 1543190400,
-    "hour" : 17,
-    "lat" : -6.9297384,
-    "long" : 107.7106159,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 467,
-    "date" : 1543276800,
-    "hour" : 23,
-    "lat" : -6.9261159,
-    "long" : 107.5912138,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 468,
-    "date" : 1543363200,
-    "hour" : 21,
-    "lat" : -6.9476963,
-    "long" : 107.6347569,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 469,
-    "date" : 1543363200,
-    "hour" : 1,
-    "lat" : -6.937886,
-    "long" : 107.677227,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 470,
-    "date" : 1543363200,
-    "hour" : 23,
-    "lat" : -6.9316853,
-    "long" : 107.7138344,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 471,
-    "date" : 1543449600,
-    "hour" : 5,
-    "lat" : -6.9238294,
-    "long" : 107.5988959,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 472,
-    "date" : 1543795200,
-    "hour" : 6,
-    "lat" : -6.9334329,
-    "long" : 107.6067821,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
-    "wounded": 3
-},
-{
-    "id" : 473,
-    "date" : 1543795200,
-    "hour" : 21,
-    "lat" : -6.9483348,
-    "long" : 107.6099912,
-    "type" : "Tabrak Manusia",
-    "death" : 1,
-    "wounded": 0
-},
-{
-    "id" : 474,
-    "date" : 1543795200,
-    "hour" : 4,
-    "lat" : -6.898979,
-    "long" : 107.64164,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 475,
-    "date" : 1544054400,
-    "hour" : 18,
-    "lat" : -6.904297,
-    "long" : 107.678832,
-    "type" : "Tabrak Manusia",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 476,
-    "date" : 1544140800,
-    "hour" : 7,
-    "lat" : -6.938042,
-    "long" : 107.6631753,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 477,
-    "date" : 1544227200,
-    "hour" : 23,
-    "lat" : -6.9446683,
-    "long" : 107.5900785,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 4
-},
-{
-    "id" : 478,
-    "date" : 1544227200,
-    "hour" : 16,
-    "lat" : -6.9563392,
-    "long" : 107.6393017,
-    "type" : "Tabrak Tunggal",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 479,
-    "date" : 1544313600,
-    "hour" : 10,
-    "lat" : -6.9000987,
-    "long" : 107.6046708,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 480,
-    "date" : 1544400000,
-    "hour" : 19,
-    "lat" : -6.9424059,
-    "long" : 107.6517904,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 481,
-    "date" : 1544572800,
-    "hour" : 4,
-    "lat" : -6.9408425,
-    "long" : 107.6066705,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 482,
-    "date" : 1544572800,
-    "hour" : 16,
-    "lat" : -6.9316747,
-    "long" : 107.693082,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 483,
-    "date" : 1544659200,
-    "hour" : 13,
-    "lat" : -6.8917899,
-    "long" : 107.5723429,
-    "type" : "Tabrak Tunggal",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 484,
+},{
+    "id" : 493,
     "date" : 1544659200,
     "hour" : 3,
-    "lat" : -6.958797,
-    "long" : 107.5764581,
+    "loc" : "Padaleunyi_4_",
     "type" : "Tabrak Depan - Belakang",
     "death" : 1,
     "wounded": 0
-},
-{
-    "id" : 485,
-    "date" : 1544659200,
-    "hour" : 6,
-    "lat" : -6.9370107,
-    "long" : 107.62221,
-    "type" : "Tabrak Depan - Samping",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 486,
-    "date" : 1544659200,
-    "hour" : 3,
-    "lat" : -6.9016924,
-    "long" : 107.6520062,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 487,
-    "date" : 1544745600,
-    "hour" : 9,
-    "lat" : -6.918935,
-    "long" : 107.5883878,
-    "type" : "Tabrak Tunggal",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 488,
-    "date" : 1544745600,
-    "hour" : 10,
-    "lat" : -6.929331,
-    "long" : 107.667637,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 489,
-    "date" : 1544832000,
-    "hour" : 20,
-    "lat" : -6.8948236,
-    "long" : 107.587911,
-    "type" : "Tabrak Tunggal",
-    "death" : 1,
-    "wounded": 1
-},
-{
-    "id" : 490,
-    "date" : 1544918400,
-    "hour" : 5,
-    "lat" : -6.924928,
-    "long" : 107.6462211,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 491,
-    "date" : 1545004800,
-    "hour" : 1,
-    "lat" : -6.938056,
-    "long" : 107.6422076,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 0,
-    "wounded": 1
-},
-{
-    "id" : 492,
+},{
+    "id" : 494,
     "date" : 1545091200,
     "hour" : 2,
-    "lat" : -6.9646732,
-    "long" : 107.6297605,
+    "loc" : "Padaleunyi_4_",
     "type" : "Tabrak Depan - Belakang",
     "death" : 1,
     "wounded": 5
-},
-{
-    "id" : 493,
-    "date" : 1545091200,
-    "hour" : 12,
-    "lat" : -6.942447,
-    "long" : 107.649281,
-    "type" : "Tabrak Tunggal",
-    "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 494,
-    "date" : 1545091200,
-    "hour" : 19,
-    "lat" : -6.9096705,
-    "long" : 107.7233385,
-    "type" : "Tabrak Tunggal",
+},{
+    "id" : 495,
+    "date" : 1541030400,
+    "hour" : 23,
+    "loc" : "Tubagus_Ismail_4_",
+    "type" : "Tabrak Depan - Samping",
     "death" : 0,
     "wounded": 1
-},
-{
-    "id" : 495,
-    "date" : 1545350400,
-    "hour" : 19,
-    "lat" : -6.9426374,
-    "long" : 107.6499972,
+},{
+    "id" : 496,
+    "date" : 1529625600,
+    "hour" : 11,
+    "loc" : "Supratman_4_",
     "type" : "Tabrak Manusia",
     "death" : 0,
-    "wounded": 2
-},
-{
-    "id" : 496,
-    "date" : 1545523200,
-    "hour" : 15,
-    "lat" : -6.9166898,
-    "long" : 107.6553025,
-    "type" : "Tabrak Depan - Depan",
-    "death" : 0,
     "wounded": 1
-},
-{
+},{
     "id" : 497,
-    "date" : 1545782400,
-    "hour" : 15,
-    "lat" : -6.946422,
-    "long" : 107.637965,
-    "type" : "Tabrak Samping - Samping",
-    "death" : 1,
-    "wounded": 1
-},
-{
+    "date" : 1521504000,
+    "hour" : 21,
+    "loc" : "Soekarno_-_Hatta_4_",
+    "type" : "Tabrak Depan - Samping",
+    "death" : 0,
+    "wounded": 2
+},{
     "id" : 498,
-    "date" : 1545955200,
-    "hour" : 18,
-    "lat" : -6.8864195,
-    "long" : 107.6614902,
-    "type" : "Tabrak Depan - Belakang",
-    "death" : 1,
+    "date" : 1527379200,
+    "hour" : 14,
+    "loc" : "Wastukencana_4_",
+    "type" : "Tabrak Samping - Samping",
+    "death" : 0,
     "wounded": 1
 }]

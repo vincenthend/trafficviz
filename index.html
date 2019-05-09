@@ -51,6 +51,7 @@
 			setupMap();
 			setupSlider();
 			setupLocationBox();
+			setRoadColor(-1);
 		}
 
 		function setupSlider(){
@@ -81,7 +82,7 @@
 				var dataLine = d3.selectAll("#DataLine > *").attr("stroke-width",2.5);
 
 				// Set starting road color
-				setRoadColor();
+				setRoadColor(-1);
 
 				// Event Listener
 				var dataLine = d3.selectAll("#DataLine > *");
@@ -137,32 +138,72 @@
 			displayBarChart(-1);
 		}
 
-		function setRoadColor(data){
-			var sample = [{
-				"street" : "Padaleunyi_4_",
-				"case" : 4
-			},
-			{
-				"street" : "Achmad_Yani_4_",
-				"case" : 8
-			},
-			{
-				"street" : "Gatot_Subroto_4_",
-				"case" : 6
-			}
-		];
-		
-			data = sample;
-			var max = data.reduce((max, num) => { return num.case > max.case ? num : max;})
+		function setRoadColor(startTime) {
+			loadJson(function(response) {
+				var data = JSON.parse(response);
 
-			var strokeColor = d3.scaleLinear().domain([0,max["case"]/2,max["case"]]).range(["#BDD251", "#EAEA78", "#F38183"]);
+				loadLocationJson(function(locResponse) {
+					locationData = JSON.parse(locResponse);
 
-			for(var i=0; i < data.length; i++){
-				console.log(d3.select('#Map #DataLine #'+data[i].street));
-				d3.select('#Map #DataLine #'+data[i].street)
-					.attr("stroke",d3.rgb(strokeColor(data[i].case)).hex())
-					.attr("defff-stroke",d3.rgb(strokeColor(data[i].case)).hex());
-			}
+					if(startTime == -1) {
+
+						countAccidentDataPerLocation(data, locationData, function(count) {
+							var accidentDataPerLocation = [];
+
+							for(i = 0; i < count.length; i++) {
+								accidentDataPerLocation.push({
+									"street": locationData[i],
+									"case": count[i]
+								});
+							}
+
+							console.log(accidentDataPerLocation);
+
+							var max = accidentDataPerLocation.reduce((max, num) => { return num.case > max.case ? num : max;})
+
+							var strokeColor = d3.scaleLinear().domain([0,max["case"]/2,max["case"]]).range(["#BDD251", "#EAEA78", "#F38183"]);
+
+							for(var i=0; i < accidentDataPerLocation.length; i++){
+								console.log(d3.select('#Map #DataLine #'+accidentDataPerLocation[i].street));
+								d3.select('#Map #DataLine #'+accidentDataPerLocation[i].street)
+									.attr("stroke",d3.rgb(strokeColor(accidentDataPerLocation[i].case)).hex())
+									.attr("defff-stroke",d3.rgb(strokeColor(accidentDataPerLocation[i].case)).hex());
+							}
+						});
+
+					} else {
+						getAccidentData(data, startTime, function(accidentData) {
+							data = accidentData;
+
+							countAccidentDataPerLocation(data, locationData, function(count) {
+								var accidentDataPerLocation = [];
+
+								for(i = 0; i < count.length; i++) {
+									accidentDataPerLocation.push({
+										"street": locationData[i],
+										"case": count[i]
+									});
+								}
+
+								console.log(accidentDataPerLocation);
+
+								var max = accidentDataPerLocation.reduce((max, num) => { return num.case > max.case ? num : max;})
+
+								var strokeColor = d3.scaleLinear().domain([0,max["case"]/2,max["case"]]).range(["#BDD251", "#EAEA78", "#F38183"]);
+
+								for(var i=0; i < accidentDataPerLocation.length; i++){
+									console.log(d3.select('#Map #DataLine #'+accidentDataPerLocation[i].street));
+									d3.select('#Map #DataLine #'+accidentDataPerLocation[i].street)
+										.attr("stroke",d3.rgb(strokeColor(accidentDataPerLocation[i].case)).hex())
+										.attr("defff-stroke",d3.rgb(strokeColor(accidentDataPerLocation[i].case)).hex());
+								}
+							});
+						});
+					}
+				});
+
+			});
+			
 		}
 
 		function showLocationData(streetName){
@@ -179,13 +220,26 @@
 		function loadJson(callback) {   
 		    var xobj = new XMLHttpRequest();
 		        xobj.overrideMimeType("application/json");
-		    		xobj.open('GET', 'data.json', true); // Replace 'my_data' with the path to your file
-		    		xobj.onreadystatechange = function () {
-						if (xobj.readyState == 4 && xobj.status == "200") {
-		            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-		            callback(xobj.responseText);
-						}
-		    };
+	    		xobj.open('GET', 'data.json', true); // Replace 'my_data' with the path to your file
+	    		xobj.onreadystatechange = function () {
+					if (xobj.readyState == 4 && xobj.status == "200") {
+	            	// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+	            	callback(xobj.responseText);
+				}
+	    	};
+		    xobj.send(null);
+		}
+
+		function loadLocationJson(callback) {   
+		    var xobj = new XMLHttpRequest();
+		        xobj.overrideMimeType("application/json");
+	    		xobj.open('GET', 'loc.json', true); // Replace 'my_data' with the path to your file
+	    		xobj.onreadystatechange = function () {
+					if (xobj.readyState == 4 && xobj.status == "200") {
+	            	// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+	            	callback(xobj.responseText);
+				}
+	    	};
 		    xobj.send(null);
 		}
 		 
@@ -198,7 +252,29 @@
 				}
 			}
 			callback(dataAtCurrentTime);
-		 }
-		 
-    </script>
+		}
+
+		function countAccidentDataPerLocation(accidentData, locationData, callback) {
+			var count = [];
+
+			for(i = 0; i < locationData.length; i++) {
+				count.push(0);
+			}
+
+			for(i = 0; i < accidentData.length; i++) {
+				for(j = 0; j < locationData.length; j++) {
+					if(accidentData[i].loc == locationData[j]) {
+						count[j] += 1;
+						break;
+					}
+				}
+			}
+
+			callback(count);
+		}
+
+		function getAccidentDataPerLocation(startTime) {
+
+		}
+	</script>
 </html>
