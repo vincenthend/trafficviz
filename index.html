@@ -7,27 +7,35 @@
 				<meta name="viewport" content= "width=device-width, initial-scale=1.0">
     </head>
 		<body class="bg-viz" style="margin:0">
-		<div id='locationBox'>
-			<div id='locationName'></div>
-			<div id="locationPersebaran">Persebaran Jenis Kecelakaan</div>
-			<div id='barChart'></div>
-			<div id='locationAccidents'>
-				<span id='accidentsNumber'>900</span> Accidents Happened
-			</div>			
-			<div id='locationWounded'>
-				<span id='woundedNumber'>900</span> people wounded
+		<div id="intro-scene">
+			<div class="title-container typewriter">
+				<h1>Bandung's Traffic Accidents</h1>
 			</div>
-			<div id='locationDead'>
-				<span id='DeadNumber'>900</span> people dead
-			</div>
+			<input type="button" value="Hai" onclick="next()" />
 		</div>
-		<div class="slider-container">
-			<div id="time-label" class="slider-label">
-				All Time
+		<div id="viz-scene">
+			<div id='locationBox'>
+				<div id='locationName'></div>
+				<div id="locationPersebaran">Persebaran Jenis Kecelakaan</div>
+				<div id='barChart'></div>
+				<div id='locationAccidents'>
+					<span id='accidentsNumber'>900</span> Accidents Happened
+				</div>			
+				<div id='locationWounded'>
+					<span id='woundedNumber'>900</span> people wounded
+				</div>
+				<div id='locationDead'>
+					<span id='DeadNumber'>900</span> people dead
+				</div>
 			</div>
-			<div id="time-clock-slot" class="slider-clock">
+			<div id="slider-container">
+				<div id="time-label" class="slider-label">
+					All Time
+				</div>
+				<div id="time-clock-slot" class="slider-clock">
+				</div>
+				<input id="time-slider" type="range" min="-1" max="23" value="-1" step="1" class="slider" oninput="update()">
 			</div>
-			<input id="time-slider" type="range" min="-1" max="23" value="-1" step="1" class="slider" oninput="update()">
 		</div>
 
 		<!-- Tooltips -->
@@ -47,6 +55,12 @@
 		load();
 
 		//Loading Function
+		function next() {
+			document.getElementById("intro-scene").style.visibility="hidden";
+			document.getElementById("locationBox").style.visibility="visible";
+			document.getElementById("slider-container").style.visibility="visible";
+		}
+
 		function load(){
 			setupMap();
 			setupSlider();
