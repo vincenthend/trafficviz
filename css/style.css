@@ -77,7 +77,7 @@
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation: 
-    typing 3.5s steps(30, end),
+    typing 2s steps(30, end),
     blink-caret .5s step-end infinite;
 }
 
@@ -91,6 +91,25 @@
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
+}
+
+#reset {
+  position:fixed;
+  right:0;
+  bottom: 20%;
+  margin-right: 2rem;
+  padding: 0.2rem;
+  width:2rem;
+  height:2rem;
+  border-radius:100%;
+  background-color: #FFFFFF;
+  cursor: pointer;  
+  z-index: 1;
+}
+
+#reset:hover {
+  transition-duration: 0.2s;
+  background-color: #CCCCCC;
 }
 
 /*
@@ -197,7 +216,8 @@
 #locationPersebaran {
   font-family: 'roboto_light';
   margin-top: 0.5rem;
-  font-size:0.8rem;
+  margin-bottom:0.2rem;
+  font-size:1rem;
 }
 
 #locationBox {
@@ -322,3 +342,4 @@
   border-style: solid;
   border-color: #d3d3d3 transparent transparent transparent;
 }
+

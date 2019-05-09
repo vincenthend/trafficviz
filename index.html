@@ -9,14 +9,17 @@
 		<body class="bg-viz" style="margin:0">
 		<div id="intro-scene">
 			<div class="title-container typewriter">
-				<h1>Bandung's Traffic Accidents</h1>
+				<h1  onclick="next()">Bandung's Traffic Accidents</h1>
 			</div>
-			<input type="button" value="Hai" onclick="next()" />
+			<!-- input type="button" value="Hai" onclick="next()" /-->
+		</div>
+		<div id="reset">
+			<img src="./assets/reset.svg" width="100%" height="100%">
 		</div>
 		<div id="viz-scene">
 			<div id='locationBox'>
 				<div id='locationName' name="Kota Bandung"></div>
-				<div id="locationPersebaran">Persebaran Jenis Kecelakaan</div>
+				<div id="locationPersebaran">Type of Accidents</div>
 				<div id='barChart'></div>
 				<div id='locationAccidents'>
 					<span id='accidentsNumber'>900</span> Accidents Happened
@@ -68,8 +71,9 @@
 			setupLocationBox();
 
 			var t = d3.timer(function(e){
-				if(e > 5000) {
+				if(e > 3000) {
 					next();
+					t.stop();
 				}
 			});
 		}
@@ -115,7 +119,7 @@
 						var d = d3.select(this);
 						d.transition().duration(200).attr('stroke',d3.hsl(d.attr('stroke')).brighter(0.8))
 
-						var regex = /^(_*([A-z]+))*/gm;
+						var regex = /^(_*([A-z\-]+))*/gm;
 						var road_name = regex.exec(d.attr('id'))[0].split("_").join(' ').trim();
 
 						// Tooltips
@@ -149,6 +153,11 @@
 						showLocationData(d.attr('id'), d3.select("#time-slider").node().value)
 						d3.select("#current-location").node().value = d.attr('id');
 				})
+
+				d3.select("#reset").on("click",function(){
+					showLocationData("Kota Bandung", d3.select("#time-slider").node().value)
+					d3.select("#current-location").node().value = "Kota Bandung"
+				});
 			});
 		}
 
