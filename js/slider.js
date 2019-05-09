@@ -5,12 +5,11 @@ function update() {
 	setRoadColor(parseInt(startTime));
 
 	// Set text viz
-	var currentLocation = document.getElementById("current-location").value;
+	var currentLocation = d3.select("#current-location").node().value;
 	showLocationData(currentLocation, parseInt(startTime));
 		
 	// Show bar chart
-	console.log("slider", currentLocation);
-	displayBarChart(parseInt(startTime), currentLocation);
+	// displayBarChart(parseInt(startTime), currentLocation);
 
 	if(startTime >= 0){
 		// Change bg color

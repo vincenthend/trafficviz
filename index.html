@@ -189,7 +189,6 @@
 		}
 
 		function getLocTimeAccidentData(startTime, location){
-			console.log('debug start time', startTime)
 			var promise = new Promise(function(resolve, reject){
 				loadJson(resolve)
 			});
@@ -209,21 +208,16 @@
 					locFilter = data;
 				}
 
-				console.log("debug loc", locFilter.length);
-
 				var timeFilter = [];
 				if(startTime != -1){
-					console.log('debug hour starttime', locFilter[i].hour, startTime)
-					for(var i = 0; i < data.length; i++){
-						if(data[i].hour == timeFilter){
+					for(var i = 0; i < locFilter.length; i++){
+						if(locFilter[i].hour == startTime){
 							timeFilter.push(locFilter[i]);
 						}
 					}
 				} else {
-					timeFilter = data;
+					timeFilter = locFilter;
 				}
-
-				console.log("time", timeFilter.length);
 
 				return timeFilter;
 			});
@@ -288,13 +282,13 @@
 				if(streetName in result){
 					var data = result[streetName][startTime];
 					locationBox.select("#locationName").text(clean_road_name);
-					displayBarChart(-1, clean_road_name);
+					displayBarChart(startTime, streetName);
 					locationBox.select("#accidentsNumber").text(data.case);
 					locationBox.select("#woundedNumber").text(data.wounded);
 					locationBox.select("#deadNumber").text(data.death);
 				} else {
 					locationBox.select("#locationName").text(clean_road_name);
-					displayBarChart(-1, clean_road_name);
+					displayBarChart(startTime, streetName);
 					locationBox.select("#accidentsNumber").text(0);
 					locationBox.select("#woundedNumber").text(0);
 					locationBox.select("#deadNumber").text(0);

@@ -1,23 +1,24 @@
 function createBarChart(count) {
-	console.log("create count", count);
 	d3.select('#barChart svg').remove();
 	var chart = d3.select('#barChart').append('svg').attr('width', '100%').attr('height', '2rem');
-	
+	console.log(count)
 	chart.append('rect').attr('width', "100%")
 	.attr('x',0)
 	.attr('y',0)
-	.style("fill","#000000");
+	.style("fill","#160701");
 
 	// For each data
 	var color = ["#ED8A22", "#D57225", "#C15C26", "#B85226", "#AF4725"]
 	if(count.length == getAccidentTypes().length){
+		console.log(count.length)
 		var sum = count.reduce((sum, num) => { return sum + num})
 		var sumwidth = 0;
 		var typeTranslate = ['Head-On Colission', 'Rear-End Collision', 'Side-Front Collision', 'Side-Side Collision', 'Pedestrian Accidents'];
 		for(var i = 0; i < getAccidentTypes().length; i++){
-			chart.append('rect')
-			.attr('x', sumwidth+'%')
-			.attr('width', count[i]/sum*100+'%')
+			var rect = chart.append('rect');
+
+			rect.attr('x', '0%')
+			.attr('width', '0%')
 			.attr('height', '2rem')
 			.attr('id', 'chartAccident')
 			.attr('data-text', typeTranslate[i])
@@ -47,7 +48,10 @@ function createBarChart(count) {
 				var tip = d3.select("#tip-type");
 				tip.transition().duration(200).style("opacity",0);
 			});
-			;
+			
+			rect.transition().duration(250)
+			.attr('x', sumwidth+'%')
+			.attr('width', count[i]/sum*100+'%');
 			sumwidth += count[i]/sum*100;
 		}
 	}
@@ -59,7 +63,7 @@ function getAccidentTypes() {
 
 function getCountPerType(startTime, location) {
 	return getLocTimeAccidentData(startTime, location).then(function(locTimeData) {
-		console.log("display", location, locTimeData);
+		console.log(locTimeData)
 		var count = [0, 0, 0, 0, 0];
 		var types = getAccidentTypes();
 
@@ -77,7 +81,6 @@ function getCountPerType(startTime, location) {
 
 function displayBarChart(startTime, location) {
 	return getCountPerType(startTime, location).then(function(count) {
-		console.log("display", startTime, location, count);
 		createBarChart(count);
 		return null;
 	});
