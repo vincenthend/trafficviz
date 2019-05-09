@@ -19,7 +19,7 @@
 		<div id="viz-scene">
 			<div id='locationBox'>
 				<div id='locationName' name="Kota Bandung"></div>
-				<div id="locationPersebaran">Persebaran Jenis Kecelakaan</div>
+				<div id="locationPersebaran">Type of Accidents</div>
 				<div id='barChart'></div>
 				<div id='locationAccidents'>
 					<span id='accidentsNumber'>900</span> Accidents Happened
@@ -119,7 +119,7 @@
 						var d = d3.select(this);
 						d.transition().duration(200).attr('stroke',d3.hsl(d.attr('stroke')).brighter(0.8))
 
-						var regex = /^(_*([A-z]+))*/gm;
+						var regex = /^(_*([A-z\-]+))*/gm;
 						var road_name = regex.exec(d.attr('id'))[0].split("_").join(' ').trim();
 
 						// Tooltips

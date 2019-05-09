@@ -12,13 +12,14 @@ function createBarChart(count) {
 	if(count.length == getAccidentTypes().length){
 		var sum = count.reduce((sum, num) => { return sum + num})
 		var sumwidth = 0;
+		var typeTranslate = ['Head-On Colission', 'Rear-End Collision', 'Side-Front Collision', 'Side-Side Collision', 'Pedestrian Accidents'];
 		for(var i = 0; i < getAccidentTypes().length; i++){
 			chart.append('rect')
 			.attr('x', sumwidth+'%')
 			.attr('width', count[i]/sum*100+'%')
 			.attr('height', '2rem')
 			.attr('id', 'chartAccident')
-			.attr('data-text', getAccidentTypes()[i])
+			.attr('data-text', typeTranslate[i])
 			.attr('data-qty', count[i])
 			.attr("default-fill",color[i])
 			.style("fill",color[i])
