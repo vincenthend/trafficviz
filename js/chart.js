@@ -1,7 +1,6 @@
 function createBarChart(count) {
 	d3.select('#barChart svg').remove();
 	var chart = d3.select('#barChart').append('svg').attr('width', '100%').attr('height', '2rem');
-	console.log(count)
 	chart.append('rect').attr('width', "100%")
 	.attr('x',0)
 	.attr('y',0)
@@ -10,7 +9,6 @@ function createBarChart(count) {
 	// For each data
 	var color = ["#F78F31", "#D2732B", "#B55C25", "#9A451F", "#813018", "#6B1C10"]
 	if(count.length == getAccidentTypes().length){
-		console.log(count.length)
 		var sum = count.reduce((sum, num) => { return sum + num})
 		var sumwidth = 0;
 		var typeTranslate = ['Head-On Colission', 'Rear-End Collision', 'Side-Front Collision', 'Side-Side Collision', 'Pedestrian Accidents', 'Single Collision'];
@@ -74,7 +72,6 @@ function getAccidentTypes() {
 
 function getCountPerType(startTime, location) {
 	return getLocTimeAccidentData(startTime, location).then(function(locTimeData) {
-		console.log(locTimeData)
 		var count = [0, 0, 0, 0, 0, 0];
 		var types = getAccidentTypes();
 
