@@ -1,8 +1,11 @@
 function update() {
 	var startTime = document.getElementById("time-slider").value;
+
+	// Set road color
+	setRoadColor(parseInt(startTime));
 		
 	// Show bar chart
-	displayBarChart(startTime);
+	displayBarChart(parseInt(startTime));
 
 	if(startTime >= 0){
 		// Change bg color
