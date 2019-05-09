@@ -5,11 +5,12 @@ function update() {
 	setRoadColor(parseInt(startTime));
 
 	// Set text viz
-	console.log(document.getElementById("current-location").value);
-	showLocationData(document.getElementById("current-location").value, parseInt(startTime));
+	var currentLocation = document.getElementById("current-location").value;
+	showLocationData(currentLocation, parseInt(startTime));
 		
 	// Show bar chart
-	displayBarChart(parseInt(startTime));
+	console.log("slider", currentLocation);
+	displayBarChart(parseInt(startTime), currentLocation);
 
 	if(startTime >= 0){
 		// Change bg color

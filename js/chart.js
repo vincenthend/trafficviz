@@ -1,4 +1,5 @@
 function createBarChart(count) {
+	console.log("create count", count);
 	d3.select('#barChart svg').remove();
 	var chart = d3.select('#barChart').append('svg').attr('width', '100%').attr('height', '2rem');
 	
@@ -55,33 +56,28 @@ function getAccidentTypes() {
 	return ['Tabrak Depan - Depan', 'Tabrak Depan - Belakang', 'Tabrak Depan - Samping', 'Tabrak Samping - Samping', 'Tabrak Manusia']
 }
 
-function getCountPerType(accidentData, callback) {
-	var count = [0, 0, 0, 0, 0];
-	var types = getAccidentTypes();
+function getCountPerType(startTime, location) {
+	return getLocTimeAccidentData(startTime, location).then(function(locTimeData) {
+		console.log("display", location, locTimeData);
+		var count = [0, 0, 0, 0, 0];
+		var types = getAccidentTypes();
 
-	for(i = 0; i < accidentData.length; i++) {
-		for(j = 0; j < types.length; j++) {
-			if(accidentData[i].type == types[j]) {
-				count[j] += 1;
-				break;
+		for(i = 0; i < locTimeData.length; i++) {
+			for(j = 0; j < types.length; j++) {
+				if(locTimeData[i].type == types[j]) {
+					count[j] += 1;
+					break;
+				}
 			}
 		}
-	}
-
-	callback(count);
+		return count;
+	});
 }
 
-function displayBarChart(startTime) {
-	loadJson(function(response) {
-			// Parse JSON string into object
-		var jsonData = JSON.parse(response);
-
-		getAccidentData(jsonData, startTime, function(dataAtCurrentTime) {
-			
-			getCountPerType(dataAtCurrentTime, function(count) {
-				createBarChart(count);
-			});
-
-		});
+function displayBarChart(startTime, location) {
+	return getCountPerType(startTime, location).then(function(count) {
+		console.log("display", startTime, location, count);
+		createBarChart(count);
+		return null;
 	});
 }
