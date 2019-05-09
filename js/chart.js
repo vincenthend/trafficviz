@@ -79,7 +79,6 @@ function displayBarChart(startTime) {
 		getAccidentData(jsonData, startTime, function(dataAtCurrentTime) {
 			
 			getCountPerType(dataAtCurrentTime, function(count) {
-				console.log(startTime, dataAtCurrentTime, count);
 				createBarChart(count);
 			});
 

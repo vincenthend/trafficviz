@@ -19,7 +19,6 @@ function update() {
 				gradientLight = d3.scaleLinear().domain([12,23]).range(["#125066", "#0D1B23"]);
 				gradientDark = d3.scaleLinear().domain([12,23]).range(["#0D1B23", "#0D0F0F"]);
 			}
-			console.log(d3.select(this).style("background-image"));
 			return d3.interpolateString(d3.select(this).style("background-image"), "radial-gradient("+d3.rgb(gradientLight(startTime)).hex()+", "+d3.rgb(gradientDark(startTime)).hex()+")");
 		});
 
@@ -69,9 +68,7 @@ function animateDial(){
 		.on('end', animateDial);
 }
 
-function getBackgroundColor(startTime) {
-	var backgroundGradient = new Rainbow();
-	
+function getBackgroundColor(startTime) {	
 	if(startTime <= 11) {
 		backgroundGradient.setNumberRange(0, 11);
 		backgroundGradient.setSpectrum('#0D0F0F', '#5CB2CC');
@@ -79,5 +76,7 @@ function getBackgroundColor(startTime) {
 		backgroundGradient.setNumberRange(12, 23);
 		backgroundGradient.setSpectrum('#5CB2CC', '#0D0F0F');
 	}
-	return "#" + backgroundGradient.colourAt(startTime);
+
+
+	return ["#" + backgroundGradient.colourAt(startTime)];
 }

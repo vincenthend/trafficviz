@@ -28,6 +28,7 @@
 			<div id="time-clock-slot" class="slider-clock">
 			</div>
 			<input id="time-slider" type="range" min="-1" max="23" value="-1" step="1" class="slider" oninput="update()">
+			<input id="current-location" type="hidden" value="Kota Bandung">
 		</div>
 
 		<!-- Tooltips -->
@@ -51,7 +52,6 @@
 			setupMap();
 			setupSlider();
 			setupLocationBox();
-			setRoadColor(-1);
 		}
 
 		function setupSlider(){
@@ -126,95 +126,145 @@
 					.on("click",function(){
 						// Respond to click on road, get location name etc
 						var d = d3.select(this);
-						var regex = /^(_*([A-z]+))*/gm;
-						var road_name = regex.exec(d.attr('id'));
-						showLocationData(road_name[0].split("_").join(' ').trim())
+						showLocationData(d.attr('id'), d3.select("#time-slider").node().value)
+						d3.select("#current-location").node().value = d.attr('id')
 				})
 			});
 		}
 
 		function setupLocationBox(){
-			showLocationData("Kota Bandung");
+			showLocationData("Kota Bandung", -1);
 			displayBarChart(-1);
 		}
 
 		function setRoadColor(startTime) {
-			loadJson(function(response) {
-				var data = JSON.parse(response);
-
-				loadLocationJson(function(locResponse) {
-					locationData = JSON.parse(locResponse);
-
-					if(startTime == -1) {
-
-						countAccidentDataPerLocation(data, locationData, function(count) {
-							var accidentDataPerLocation = [];
-
-							for(i = 0; i < count.length; i++) {
-								accidentDataPerLocation.push({
-									"street": locationData[i],
-									"case": count[i]
-								});
-							}
-
-							console.log(accidentDataPerLocation);
-
-							var max = accidentDataPerLocation.reduce((max, num) => { return num.case > max.case ? num : max;})
-
-							var strokeColor = d3.scaleLinear().domain([0,max["case"]/2,max["case"]]).range(["#BDD251", "#EAEA78", "#F38183"]);
-
-							for(var i=0; i < accidentDataPerLocation.length; i++){
-								console.log(d3.select('#Map #DataLine #'+accidentDataPerLocation[i].street));
-								d3.select('#Map #DataLine #'+accidentDataPerLocation[i].street)
-									.attr("stroke",d3.rgb(strokeColor(accidentDataPerLocation[i].case)).hex())
-									.attr("defff-stroke",d3.rgb(strokeColor(accidentDataPerLocation[i].case)).hex());
-							}
-						});
-
-					} else {
-						getAccidentData(data, startTime, function(accidentData) {
-							data = accidentData;
-
-							countAccidentDataPerLocation(data, locationData, function(count) {
-								var accidentDataPerLocation = [];
-
-								for(i = 0; i < count.length; i++) {
-									accidentDataPerLocation.push({
-										"street": locationData[i],
-										"case": count[i]
-									});
-								}
-
-								console.log(accidentDataPerLocation);
-
-								var max = accidentDataPerLocation.reduce((max, num) => { return num.case > max.case ? num : max;})
-
-								var strokeColor = d3.scaleLinear().domain([0,max["case"]/2,max["case"]]).range(["#BDD251", "#EAEA78", "#F38183"]);
-
-								for(var i=0; i < accidentDataPerLocation.length; i++){
-									console.log(d3.select('#Map #DataLine #'+accidentDataPerLocation[i].street));
-									d3.select('#Map #DataLine #'+accidentDataPerLocation[i].street)
-										.attr("stroke",d3.rgb(strokeColor(accidentDataPerLocation[i].case)).hex())
-										.attr("defff-stroke",d3.rgb(strokeColor(accidentDataPerLocation[i].case)).hex());
-								}
-							});
-						});
+			aggregateLocTimeAccidentData(startTime,"Kota Bandung").then(function(result){
+				var key = Object.keys(result);
+				var max = result[key[1]][startTime];
+				var sum = 0;
+				for(var i=0; i < key.length; i++){
+					if(result[key[i]][startTime].case > max["case"] && key[i] != "Kota Bandung"){
+						max = result[key[i]][startTime];
 					}
-				});
-
+					sum += result[key[i]][startTime].case;
+				}
+				var strokeColor = d3.scaleLinear().domain([0,sum/61,max.case]).range(["#FFD00A", "#EF4A23", "#EC1C24"]);
+				
+				for(var i=0; i < key.length; i++){
+					d3.select('#Map #DataLine #'+result[key[i]][startTime].street)
+						.attr("def-stroke",d3.rgb(strokeColor(result[key[i]][startTime].case)).hex())
+						.transition().duration(300)
+						.attr("stroke",d3.rgb(strokeColor(result[key[i]][startTime].case)).hex())
+				}
 			});
-			
 		}
 
-		function showLocationData(streetName){
+		function getLocTimeAccidentData(startTime, location){
+			var promise = new Promise(function(resolve, reject){
+				loadJson(resolve)
+			});
+
+			return promise.then(function(data){
+				data = JSON.parse(data);
+
+				// Filter by location
+				var locFilter = [];
+				if(location != "Kota Bandung"){
+					for(var i = 0; i < data.length; i++){
+						if(data[i].loc == location){
+							locFilter.push(data[i]);
+						}
+					}
+				} else {
+					locFilter = data;
+				}
+
+				var timeFilter = [];
+				if(startTime != -1){
+					for(var i = 0; i < data.length; i++){
+						if(data[i].hour == timeFilter){
+							timeFilter.push(data[i]);
+						}
+					}
+				} else {
+					timeFilter = data;
+				}
+
+				return timeFilter;
+			});
+		}
+
+		function aggregateLocTimeAccidentData(){
+			return getLocTimeAccidentData(-1, "Kota Bandung").then(function(data){
+				var dict = {};
+				
+				dict["Kota Bandung"] = {};
+					for(var j = -1; j < 24; j++){
+						dict["Kota Bandung"][j] = {};
+						dict["Kota Bandung"][j]["street"] = "Kota Bandung";
+						dict["Kota Bandung"][j]["case"] = 0;
+						dict["Kota Bandung"][j]["wounded"] = 0;
+						dict["Kota Bandung"][j]["death"] = 0;
+				}
+				for(var i = 0; i < data.length; i++){
+
+					if(!(data[i].loc in dict)) {
+						dict[data[i].loc] = {};
+						for(var j = -1; j < 24; j++){
+							dict[data[i].loc][j] = {};
+							dict[data[i].loc][j]["street"] = data[i].loc;
+							dict[data[i].loc][j]["case"] = 0;
+							dict[data[i].loc][j]["wounded"] = 0;
+							dict[data[i].loc][j]["death"] = 0;
+						}
+					}
+					dict[data[i].loc][data[i].hour].case += 1;
+					dict[data[i].loc][data[i].hour].wounded += data[i].wounded;
+					dict[data[i].loc][data[i].hour].death += data[i].death;
+
+					dict[data[i].loc][-1].case += 1;
+					dict[data[i].loc][-1].wounded += data[i].wounded;
+					dict[data[i].loc][-1].death += data[i].death;
+
+					dict["Kota Bandung"][data[i].hour].case += 1;
+					dict["Kota Bandung"][data[i].hour].wounded += data[i].wounded;
+					dict["Kota Bandung"][data[i].hour].death += data[i].death;
+
+					dict["Kota Bandung"][-1].case += 1;
+					dict["Kota Bandung"][-1].wounded += data[i].wounded;
+					dict["Kota Bandung"][-1].death += data[i].death;
+				}
+				return dict;
+			})
+		}
+
+		function showLocationData(streetName, startTime){
 			// TODO
-			// getLocationData(streetName);
-			var locationBox = d3.select('#locationBox');
-			locationBox.select("#locationName").text(streetName);
-			displayBarChart(-1);
-			locationBox.select("#accidentsNumber").text("999");
-			locationBox.select("#woundedNumber").text("1000");
-			locationBox.select("#deadNumber").text("1001");
+			aggregateLocTimeAccidentData().then(function(result){
+				var clean_road_name;
+				if(streetName != "Kota Bandung"){
+					var regex = /^(_*([A-z\-]+))*/gm;
+					clean_road_name = regex.exec(streetName)[0].split("_").join(" ");
+				} else {
+					clean_road_name = streetName;
+				}
+				
+				var locationBox = d3.select('#locationBox');
+				if(streetName in result){
+					var data = result[streetName][startTime];
+					locationBox.select("#locationName").text(clean_road_name);
+					displayBarChart(-1);
+					locationBox.select("#accidentsNumber").text(data.case);
+					locationBox.select("#woundedNumber").text(data.wounded);
+					locationBox.select("#deadNumber").text(data.death);
+				} else {
+					locationBox.select("#locationName").text(clean_road_name);
+					displayBarChart(-1);
+					locationBox.select("#accidentsNumber").text(0);
+					locationBox.select("#woundedNumber").text(0);
+					locationBox.select("#deadNumber").text(0);
+				}
+			});
 		}
 
 		function loadJson(callback) {   
