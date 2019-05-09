@@ -1,0 +1,262 @@
+/* 
+  General
+*/
+
+@font-face {
+  font-family: 'blender_proheavy';
+  src: url('../fonts/blenderpro-heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'blender_probold';
+  src: url('../fonts/blenderpro-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'blender_promedium';
+  src: url('../fonts/blenderpro-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_light';
+  src: url('../fonts/Roboto-Light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_black';
+  src: url('../fonts/Roboto-Black.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_bold';
+  src: url('../fonts/Roboto-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_regular';
+  src: url('../fonts/Roboto-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bg-viz {
+  /* background-color: #0D0F0F; */
+  background-image: radial-gradient(#0D1B23, #0D0F0F);
+  color: white;
+}
+
+/* 
+  Slider
+*/
+
+.slider-container {
+  height: 100px;
+  width: 250px;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+
+.slider {
+  -webkit-appearance: none;
+  position: absolute;
+  width: 100%;
+  height: 0.8rem;
+  border-radius: 10px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: #EC8526;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: #EC8526;
+  cursor: pointer;
+}
+
+.slider-label {
+  font-family: 'roboto_light', sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.slider-clock {
+  position: absolute;
+  width:100%;
+  height:100%;
+  bottom:30%;
+}
+
+/* 
+  Location Data
+*/
+
+#barChart {
+  width: 30rem;
+}
+
+#locationPersebaran {
+  font-family: 'roboto_light';
+  margin-top: 0.5rem;
+  font-size:0.8rem;
+}
+
+#locationBox {
+  position: fixed;
+  top:0;
+  right:0;
+  margin-top: 1rem;
+  margin-right:1.5rem;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  user-select: none;
+}
+
+#locationBox #locationName {
+  font-family: 'blender_proheavy', sans-serif;
+  font-size: 4rem;
+}
+
+#locationAccidents {
+  font-family: 'roboto_light';
+  text-align: right;
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+}
+
+#locationWounded, #locationDead {
+  font-family: 'roboto_light';
+  text-align: right;
+  font-size: 1.35rem;
+}
+
+#locationAccidents #accidentsNumber {
+  font-family: 'roboto_bold';
+  font-size:2.4rem;
+  color: #E4AD24;
+}
+
+#locationWounded #woundedNumber {
+  font-family: 'roboto_bold';
+  font-size:1.7rem;
+  color: #E4AD24;
+}
+
+#locationDead #deadNumber {
+  font-family: 'roboto_bold';
+  font-size:1.7rem;
+  color: #E4AD24;
+}
+
+/* 
+  Map Data
+*/
+
+#DataLine > * {
+  cursor: pointer;
+}
+
+/* 
+  Tooltip
+*/
+
+#tip-type {
+  position: absolute;
+  text-align: center;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  user-select: none;
+  padding: 0.4rem 0.7rem;
+  opacity: 0;
+}
+
+#tip-type #tip-type-label {
+  font-family: 'roboto_black';
+  font-size: 0.8rem;
+}
+
+#tip-type #tip-type-number {
+  font-family: 'roboto_regular';
+  font-size: 0.8rem;
+}
+
+#tip-road {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  position: absolute;
+  background-color: #dddddd;
+  color: #333;
+  border-radius: 4px;
+  padding: 0.2rem 0.7rem;
+  opacity: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+#tip-road #tip-road-label {
+  font-family: 'roboto_black';
+  color: rgb(213, 96, 57);
+  font-size: 1rem;
+}
+
+#tip-road #tip-road-number {
+  font-family: 'roboto_regular';
+  font-size: 0.7rem;
+}
+
+#tip-road::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #d3d3d3 transparent transparent transparent;
+}

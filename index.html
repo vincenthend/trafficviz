@@ -1,44 +1,204 @@
 <html>
     <head>
+    	<link rel="stylesheet" type="text/css" href="css/style.css" />
         <title>Bandung's Traffic Accidents</title>
         <script src="./js/d3.v5.min.js"></script>
+				<script type="text/javascript" src="./js/rainbowvis.js"></script>
+				<meta name="viewport" content= "width=device-width, initial-scale=1.0">
     </head>
-    <body>
-    </body>
+		<body class="bg-viz" style="margin:0">
+		<div id='locationBox'>
+			<div id='locationName'></div>
+			<div id="locationPersebaran">Persebaran Jenis Kecelakaan</div>
+			<div id='barChart'></div>
+			<div id='locationAccidents'>
+				<span id='accidentsNumber'>900</span> Accidents Happened
+			</div>			
+			<div id='locationWounded'>
+				<span id='woundedNumber'>900</span> people wounded
+			</div>
+			<div id='locationDead'>
+				<span id='DeadNumber'>900</span> people dead
+			</div>
+		</div>
+		<div class="slider-container">
+			<div id="time-label" class="slider-label">
+				All Time
+			</div>
+			<div id="time-clock-slot" class="slider-clock">
+			</div>
+			<input id="time-slider" type="range" min="-1" max="23" value="-1" step="1" class="slider" oninput="update()">
+		</div>
+
+		<!-- Tooltips -->
+		<div id="tip-type">
+			<div id="tip-type-label"></div>
+			<div id="tip-type-number"></div>
+		</div>
+		<div id="tip-road">
+			<div id="tip-road-label">asdf</div>
+			<div id="tip-road-number">asdf</div>
+		</div>
+		</body>
+		<script type="text/javascript" src="./js/rainbowvis.js"></script>
+		<script type="text/javascript" src="./js/chart.js"></script>
+		<script type="text/javascript" src="./js/slider.js"></script>
     <script>
 		load();
 
-		//Zoom
+		//Loading Function
 		function load(){
+			setupMap();
+			setupSlider();
+			setupLocationBox();
+		}
+
+		function setupSlider(){
+			d3.xml('./assets/dial.svg').then(data => {
+				document.getElementById("time-clock-slot").append(data.documentElement);
+				d3.select("svg#DialImage #DialObject").attr('transform','rotate(0,199,59.5)');
+				
+				animateDial();
+			});
+		}
+
+		function setupMap(){			
 			d3.xml('./assets/map.svg').then(data => {
 				document.body.append(data.documentElement);
-				var svg = d3.select('svg');
-				svg.attr("width","100%")
-					.attr("height","100%")
+				var svg = d3.select('svg#MapImage');
+				svg.attr("width","100vw")
+					.attr("height","100vh");				
 
-				// Zoom
+				// Zoom Listener
 				svg.call(d3.zoom().scaleExtent([0.5,4.5])
 					.on("zoom", function () {
-					svg.select("#Map").attr("transform", d3.event.transform);
+					svg.select("#Map").transition().duration(50).attr("transform", d3.event.transform);
 					})
 				)
 				
-				svg.selectAll("g #DataLine path")
-					.on("mouseover", mouseOver)
-					.on("mouseout", mouseOut)
+				// Fix stroke size
+				var dataLine = d3.selectAll("#RoadLine > *").attr("stroke-width",5);
+				var dataLine = d3.selectAll("#DataLine > *").attr("stroke-width",2.5);
+
+				// Set starting road color
+				setRoadColor();
+
+				// Event Listener
+				var dataLine = d3.selectAll("#DataLine > *");
+				dataLine.attr('pointer-events', 'visibleStroke')
+					.attr('def-stroke', function() {
+						return d3.select(this).attr('stroke')
+					})
+					.on("mouseover", function(){
+						// Make it brighter
+						var d = d3.select(this);
+						d.transition().duration(200).attr('stroke',d3.hsl(d.attr('stroke')).brighter(0.8))
+
+						var regex = /^(_*([A-z]+))*/gm;
+						var road_name = regex.exec(d.attr('id'))[0].split("_").join(' ').trim();
+
+						// Tooltips
+						var tip = d3.select("#tip-road");
+						var tipSize = tip.node().getBoundingClientRect();
+						
+						tip.transition().duration(200).style("opacity",0.9);
+						tip.style("left", (d3.event.pageX - tipSize.width/2)+"px")
+								.style("top", (d3.event.pageY - tipSize.height-7)+"px")
+						tip.select("#tip-road-label").text(road_name);
+						tip.select("#tip-road-number").text(d.attr('data-qty'));
+					})
+					.on("mousemove", function(){
+						var tip = d3.select("#tip-road");
+						var tipSize = tip.node().getBoundingClientRect();
+
+						tip.style("left", (d3.event.pageX - tipSize.width/2)+"px")
+								.style("top", (d3.event.pageY - tipSize.height-7)+"px")
+					})
+					.on("mouseout", function(){
+						// Make it normal
+						var d = d3.select(this);
+						d.transition().duration(200).attr('stroke',d.attr('def-stroke'))
+
+						var tip = d3.select("#tip-road");						
+						tip.transition().duration(200).style("opacity",0);
+					})
+					.on("click",function(){
+						// Respond to click on road, get location name etc
+						var d = d3.select(this);
+						var regex = /^(_*([A-z]+))*/gm;
+						var road_name = regex.exec(d.attr('id'));
+						showLocationData(road_name[0].split("_").join(' ').trim())
+					})
 			});
 		}
-		
-		function mouseOver(d, i){
-			console.log("In");
-			console.log(d);
-			console.log(i);
+
+		function setupLocationBox(){
+			showLocationData("Kota Bandung");
+			displayBarChart(-1);
 		}
+
+		function setRoadColor(data){
+			var sample = [{
+				"street" : "Padaleunyi_4_",
+				"case" : 4
+			},
+			{
+				"street" : "Achmad_Yani_4_",
+				"case" : 8
+			},
+			{
+				"street" : "Gatot_Subroto_4_",
+				"case" : 6
+			}
+		];
 		
-		function mouseOut(d, i){
-			console.log("Out");
-			console.log(d);
-			console.log(i);
+			data = sample;
+			var max = data.reduce((max, num) => { return num.case > max.case ? num : max;})
+
+			var strokeColor = d3.scaleLinear().domain([0,max["case"]/2,max["case"]]).range(["#BDD251", "#EAEA78", "#F38183"]);
+
+			for(var i=0; i < data.length; i++){
+				console.log(d3.select('#Map #DataLine #'+data[i].street));
+				d3.select('#Map #DataLine #'+data[i].street)
+					.attr("stroke",d3.rgb(strokeColor(data[i].case)).hex())
+					.attr("defff-stroke",d3.rgb(strokeColor(data[i].case)).hex());
+			}
 		}
+
+		function showLocationData(streetName){
+			// TODO
+			// getLocationData(streetName);
+			var locationBox = d3.select('#locationBox');
+			locationBox.select("#locationName").text(streetName);
+			displayBarChart(-1);
+			locationBox.select("#accidentsNumber").text("999");
+			locationBox.select("#woundedNumber").text("1000");
+			locationBox.select("#deadNumber").text("1001");
+		}
+
+		function loadJson(callback) {   
+		    var xobj = new XMLHttpRequest();
+		        xobj.overrideMimeType("application/json");
+		    		xobj.open('GET', 'data.json', true); // Replace 'my_data' with the path to your file
+		    		xobj.onreadystatechange = function () {
+						if (xobj.readyState == 4 && xobj.status == "200") {
+		            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+		            callback(xobj.responseText);
+						}
+		    };
+		    xobj.send(null);
+		}
+		 
+	 	function getAccidentData(jsonData, startTime, callback) {
+ 			var dataAtCurrentTime = [];
+
+			for(i = 0; i < jsonData.length; i++) {
+				if(jsonData[i].hour == startTime || startTime == -1) {
+					dataAtCurrentTime.push(jsonData[i]);
+				}
+			}
+			callback(dataAtCurrentTime);
+		 }
+		 
     </script>
 </html>
