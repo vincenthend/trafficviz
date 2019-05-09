@@ -67,7 +67,7 @@ function animateDial(){
 			return d3.interpolateString('rotate(0,-121.5,397)','rotate(180,-121.5,397)')
 		}).transition().duration(5000)
 		.attrTween('transform', function(){
-			return d3.interpolateString('rotate(180,-121.5,397)','rotate(0,-121.5,397)')
+			return d3.interpolateString('rotate(180,-121.5,397)','rotate(360,-121.5,397)')
 		})
 		.on('end', animateDial);
 }
