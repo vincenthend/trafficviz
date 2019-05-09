@@ -58,15 +58,20 @@
 
 		//Loading Function
 		function next() {
-			document.getElementById("intro-scene").style.visibility="hidden";
-			document.getElementById("locationBox").style.visibility="visible";
-			document.getElementById("slider-container").style.visibility="visible";
+			d3.select("#intro-scene").transition().duration(500).style("opacity",0)
+				.transition().delay(100).remove();
 		}
 
 		function load(){
 			setupMap();
 			setupSlider();
 			setupLocationBox();
+
+			var t = d3.timer(function(e){
+				if(e > 5000) {
+					next();
+				}
+			});
 		}
 
 		function setupSlider(){
