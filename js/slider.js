@@ -6,8 +6,18 @@ function update() {
 
 	if(startTime >= 0){
 		// Change bg color
-		d3.select("body").transition().duration(150).styleTween("background-color",function(){
-			return d3.interpolateRgb(d3.select(this).style("background-color"), getBackgroundColor(startTime));
+		d3.select("body").transition().duration(150).styleTween("background-image",function(){
+			var gradientLight;
+			var gradientDark;
+			if(startTime <= 11){
+				gradientLight = d3.scaleLinear().domain([-1,11]).range(["#0D1B23", "#125066"]);
+				gradientDark = d3.scaleLinear().domain([-1,11]).range(["#0D0F0F", "#0D1B23"]);
+			} else {
+				gradientLight = d3.scaleLinear().domain([12,23]).range(["#125066", "#0D1B23"]);
+				gradientDark = d3.scaleLinear().domain([12,23]).range(["#0D1B23", "#0D0F0F"]);
+			}
+			console.log(d3.select(this).style("background-image"));
+			return d3.interpolateString(d3.select(this).style("background-image"), "radial-gradient("+d3.rgb(gradientLight(startTime)).hex()+", "+d3.rgb(gradientDark(startTime)).hex()+")");
 		});
 
 		var deg = parseInt(startTime) * 360 / 24;
