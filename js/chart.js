@@ -8,12 +8,12 @@ function createBarChart(count) {
 	.style("fill","#160701");
 
 	// For each data
-	var color = ["#ED8A22", "#D57225", "#C15C26", "#B85226", "#AF4725"]
+	var color = ["#F78F31", "#D2732B", "#B55C25", "#9A451F", "#813018", "#6B1C10"]
 	if(count.length == getAccidentTypes().length){
 		console.log(count.length)
 		var sum = count.reduce((sum, num) => { return sum + num})
 		var sumwidth = 0;
-		var typeTranslate = ['Head-On Colission', 'Rear-End Collision', 'Side-Front Collision', 'Side-Side Collision', 'Pedestrian Accidents'];
+		var typeTranslate = ['Head-On Colission', 'Rear-End Collision', 'Side-Front Collision', 'Side-Side Collision', 'Pedestrian Accidents', 'Single Collision'];
 		for(var i = 0; i < getAccidentTypes().length; i++){
 			var rect = chart.append('rect');
 
@@ -31,15 +31,26 @@ function createBarChart(count) {
 
 				var tip = d3.select("#tip-type");
 				tip.transition().duration(200).style("opacity",0.9);
-				tip.style("left", (d3.event.pageX)+"px")
+				
+				if(window.innerWidth < d3.event.pageX + tip.node().getBoundingClientRect().width){
+					tip.style("left", (d3.event.pageX - 100)+"px")
 					.style("top", (d3.event.pageY + 10)+"px")
+				} else {
+					tip.style("left", (d3.event.pageX)+"px")
+					.style("top", (d3.event.pageY + 10)+"px")
+				}
 				tip.select("#tip-type-label").text(d.attr('data-text'));
 				tip.select("#tip-type-number").text(d.attr('data-qty'));
 			})
 			.on('mousemove', function(){
 				var tip = d3.select("#tip-type");
-				tip.style("left", (d3.event.pageX)+"px")
+				if(window.innerWidth < d3.event.pageX + tip.node().getBoundingClientRect().width){
+					tip.style("left", (d3.event.pageX - 100)+"px")
 					.style("top", (d3.event.pageY + 10)+"px")
+				} else {
+					tip.style("left", (d3.event.pageX)+"px")
+					.style("top", (d3.event.pageY + 10)+"px")
+				}
 			})
 			.on('mouseout', function(){
 				var d = d3.select(this);
@@ -58,13 +69,13 @@ function createBarChart(count) {
 }
 
 function getAccidentTypes() {
-	return ['Tabrak Depan - Depan', 'Tabrak Depan - Belakang', 'Tabrak Depan - Samping', 'Tabrak Samping - Samping', 'Tabrak Manusia']
+	return ['Tabrak Depan - Depan', 'Tabrak Depan - Belakang', 'Tabrak Depan - Samping', 'Tabrak Samping - Samping', 'Tabrak Manusia', 'Tabrak Tunggal']
 }
 
 function getCountPerType(startTime, location) {
 	return getLocTimeAccidentData(startTime, location).then(function(locTimeData) {
 		console.log(locTimeData)
-		var count = [0, 0, 0, 0, 0];
+		var count = [0, 0, 0, 0, 0, 0];
 		var types = getAccidentTypes();
 
 		for(i = 0; i < locTimeData.length; i++) {
